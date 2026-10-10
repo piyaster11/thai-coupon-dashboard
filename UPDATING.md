@@ -7,14 +7,15 @@ All content lives in `deals.json`; `index.html` never needs editing.
 {
   "date": "YYYY-MM-DD",          // list date, shown in header; "expires soon" = expiry within 3 days of this
   "deals": [{
-    "rank": 1,
-    "brand": "Grab",              // Grab | Airalo | Klook | TikTok Shop | Shopee (others get grey chip)
-    "category": "Food",           // Food | Rides | Travel | Shopping
+    "rank": 1,                    // 1-10 = Top 10, 11+ = extra picks
+    "brand": "Grab",              // see COLORS in index.html (unknown brands get grey chip)
+    "category": "Food",           // Food | Restaurants | Supermarkets | Shopping | Rides | Travel | AI Tools | Card Perks
     "title": "Short name",
     "discount": "฿50 off",
     "minSpend": "฿300",
     "expiry": "2026-10-31",       // or null if no end date
-    "codes": [{"code": "CARDXFOOD", "label": "short note"}],  // [] = "No code, collect in app"
+    "codes": [{"code": "CARDXFOOD", "label": "short note"}],  // [] = "No code"
+    "claim": "How to claim when codes is [] (optional)",
     "why": "Generic note, e.g. Needs a CardX card",
     "source": "https://..."
   }]

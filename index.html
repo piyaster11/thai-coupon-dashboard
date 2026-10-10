@@ -22,12 +22,12 @@ h2{font-size:1.15rem;margin:12px 0 4px}.disc{font-size:1.35rem;font-weight:800;c
 .why{font-size:.9rem;color:#555;margin:8px 0}.src{font-size:.88rem;color:#4c1d95;font-weight:600}
 footer{text-align:center;color:#777;padding:20px;font-size:.9rem}
 </style></head><body>
-<header><h1>🇹🇭 Thailand Coupon Top 10</h1><p id="date">Loading…</p></header>
+<header><h1>🇹🇭 Thailand Coupon Top 10</h1><p style="margin:4px 0 0;opacity:.8">Top 10 first, then extra picks</p><p id="date">Loading…</p></header>
 <div class="filters" id="f"></div><main id="list"></main>
 <footer>Updated daily ~8am Bangkok time · Always check terms in the app</footer>
 <script>
-const COLORS={"Grab":"#00b14f","Airalo":"#0a7cff","Klook":"#ff5b00","TikTok Shop":"#111","Shopee":"#ee4d2d"};
-const CATS=["All","Food","Rides","Travel","Shopping"];let data,cur="All";
+const COLORS={"Grab":"#00b14f","Airalo":"#0a7cff","Klook":"#ff5b00","TikTok Shop":"#111","Shopee":"#ee4d2d","Lazada":"#0f146d","Central":"#b8860b","McDonald's":"#da291c","KFC":"#a3080c","Burger King":"#d62300","The Pizza Company":"#e31837","Swensen's":"#c8102e","Sizzler":"#7a1f2b","Bonchon":"#3d1f12","Dairy Queen":"#0055a5","MK":"#c4161c","Bar B Q Plaza":"#2e7d32","After You":"#8b5e3c","Starbucks":"#00704a","Café Amazon":"#5b8c3a","Lotus's":"#00a3a6","Big C":"#e2001a","Makro":"#e30613","Tops":"#e4002b","Gourmet Market":"#2b2b2b","Villa":"#1b5e20","7-Eleven":"#f58220","CardX":"#6d28d9","SCB":"#4e2a84","POINTX":"#8b5cf6","KTC":"#e60012","Agoda":"#5b2c83","Trip.com":"#287dfa","Thai Lion Air":"#e2231a","Hark":"#334155","Repaint":"#db2777"};
+const CATS=["All","Food","Restaurants","Supermarkets","Shopping","Rides","Travel","AI Tools","Card Perks"];let data,cur="All";
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const fmt=d=>new Date(d+"T00:00:00").toLocaleDateString("en-GB",{weekday:"short",day:"numeric",month:"short",year:"numeric"});
 function copy(t,b){const done=()=>{b.textContent="Copied!";b.classList.add("ok");setTimeout(()=>{b.textContent="Copy";b.classList.remove("ok")},1500)};
@@ -35,7 +35,7 @@ if(navigator.clipboard&&window.isSecureContext)navigator.clipboard.writeText(t).
 function fb(t,done){const a=document.createElement("textarea");a.value=t;a.style.position="fixed";a.style.opacity="0";document.body.appendChild(a);a.select();try{document.execCommand("copy")}catch(e){}a.remove();done()}
 function render(){const base=new Date(data.date+"T00:00:00");document.getElementById("list").innerHTML=data.deals.filter(d=>cur=="All"||d.category==cur).map(d=>{
 const days=d.expiry?Math.round((new Date(d.expiry+"T00:00:00")-base)/864e5):null,soon=days!==null&&days>=0&&days<=3;
-const codes=d.codes&&d.codes.length?d.codes.map(c=>`<div class="code"><div class="c">${esc(c.code)}<small>${esc(c.label)}</small></div><button class="copy" data-code="${esc(c.code)}">Copy</button></div>`).join(""):`<div class="nocode">No code, collect in app</div>`;
+const codes=d.codes&&d.codes.length?d.codes.map(c=>`<div class="code"><div class="c">${esc(c.code)}<small>${esc(c.label)}</small></div><button class="copy" data-code="${esc(c.code)}">Copy</button></div>`).join(""):`<div class="nocode">No code</div>${d.claim?`<p class="why">👉 ${esc(d.claim)}</p>`:""}`;
 return `<article class="card${soon?" soon":""}"><div class="top"><div class="rank">${d.rank}</div><span class="chip" style="background:${COLORS[d.brand]||"#555"}">${esc(d.brand)}</span><span class="cat">${esc(d.category)}</span>${soon?`<span class="soonb">⏰ Expires soon</span>`:""}</div>
 <h2>${esc(d.title)}</h2><div class="disc">${esc(d.discount)}</div><div class="meta"><span>🛒 Min: ${esc(d.minSpend)}</span><span>📅 ${d.expiry?"Until "+fmt(d.expiry):"No end date listed"}</span></div>
 ${codes}<p class="why">💡 ${esc(d.why)}</p><a class="src" href="${esc(d.source)}" target="_blank" rel="noopener">Source ↗</a></article>`}).join("")}
