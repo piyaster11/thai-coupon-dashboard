@@ -1,7 +1,8 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <title>Thailand Coupon Top 10</title>
 <style>
-*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#f1f3f8;color:#1a1d29}
+*{box-sizing:border-box}body{margin:0;font-family:"Noto Sans Thai",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#f1f3f8;color:#1a1d29}
 header{background:linear-gradient(135deg,#1e1b4b,#4c1d95 55%,#be185d);color:#fff;padding:32px 18px 26px;text-align:center}
 header h1{margin:0;font-size:1.9rem;letter-spacing:-.02em}header p{margin:6px 0 0;opacity:.85}
 .filters{display:flex;gap:8px;overflow-x:auto;padding:14px 16px;position:sticky;top:0;background:#f1f3f8ee;backdrop-filter:blur(6px);z-index:5;justify-content:center;flex-wrap:wrap}
@@ -16,31 +17,40 @@ h2{font-size:1.15rem;margin:12px 0 4px}.disc{font-size:1.35rem;font-weight:800;c
 .meta{display:flex;gap:14px;flex-wrap:wrap;font-size:.88rem;color:#444;margin-bottom:10px}
 .code{display:flex;align-items:center;gap:10px;border:2.5px dashed #4c1d95;background:#faf5ff;border-radius:12px;padding:10px 10px 10px 14px;margin:8px 0}
 .code .c{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:1.45rem;font-weight:800;color:#111;letter-spacing:.06em;flex:1;word-break:break-all;user-select:all}
-.code small{display:block;font-family:system-ui;font-size:.75rem;color:#666;letter-spacing:0;font-weight:500}
+.code small{display:block;font-family:"Noto Sans Thai",system-ui;font-size:.75rem;color:#666;letter-spacing:0;font-weight:500}
 .copy{border:0;background:#4c1d95;color:#fff;font-weight:700;padding:12px 16px;border-radius:10px;font-size:1rem;cursor:pointer;min-width:84px}.copy.ok{background:#16a34a}
 .nocode{display:inline-block;background:#fef3c7;color:#92400e;font-weight:700;padding:10px 14px;border-radius:10px;border:2px dashed #f59e0b;margin:6px 0}
 .why{font-size:.9rem;color:#555;margin:8px 0}.src{font-size:.88rem;color:#4c1d95;font-weight:600}
+.lang{position:absolute;top:14px;right:14px;display:flex;background:#ffffff22;border:1.5px solid #ffffff66;border-radius:999px;padding:3px}.lang button{border:0;background:transparent;color:#fff;font:inherit;font-weight:700;padding:6px 13px;border-radius:999px;cursor:pointer;font-size:.85rem}.lang button.on{background:#fff;color:#4c1d95}header{position:relative;padding-top:58px}
 footer{text-align:center;color:#777;padding:20px;font-size:.9rem}
 </style></head><body>
-<header><h1>🇹🇭 Thailand Coupon Top 10</h1><p style="margin:4px 0 0;opacity:.8">Top 10 first, then extra picks</p><p id="date">Loading…</p></header>
+<header><div class="lang" role="group" aria-label="Language"><button data-l="th">TH</button><button data-l="en">EN</button></div><h1 id="ttl">🇹🇭 Thailand Coupon Top 10</h1><p id="sub" style="margin:4px 0 0;opacity:.8">Top 10 first, then extra picks</p><p id="date">Loading…</p></header>
 <div class="filters" id="f"></div><main id="list"></main>
-<footer>Updated daily ~8am Bangkok time · Always check terms in the app</footer>
+<footer id="foot"></footer>
 <script>
 const COLORS={"Grab":"#00b14f","Airalo":"#0a7cff","Klook":"#ff5b00","TikTok Shop":"#111","Shopee":"#ee4d2d","Lazada":"#0f146d","Central":"#b8860b","McDonald's":"#da291c","KFC":"#a3080c","Burger King":"#d62300","The Pizza Company":"#e31837","Swensen's":"#c8102e","Sizzler":"#7a1f2b","Bonchon":"#3d1f12","Dairy Queen":"#0055a5","MK":"#c4161c","Bar B Q Plaza":"#2e7d32","After You":"#8b5e3c","Starbucks":"#00704a","Café Amazon":"#5b8c3a","Lotus's":"#00a3a6","Big C":"#e2001a","Makro":"#e30613","Tops":"#e4002b","Gourmet Market":"#2b2b2b","Villa":"#1b5e20","7-Eleven":"#f58220","CardX":"#6d28d9","SCB":"#4e2a84","POINTX":"#8b5cf6","KTC":"#e60012","Agoda":"#5b2c83","Trip.com":"#287dfa","Thai Lion Air":"#e2231a","Hark":"#334155","Repaint":"#db2777"};
 const CATS=["All","Food","Restaurants","Supermarkets","Shopping","Rides","Travel","AI Tools","Card Perks"];let data,cur="All";
+const I18N={en:{title:"🇹🇭 Thailand Coupon Top 10",sub:"Top 10 first, then extra picks",copy:"Copy",copied:"Copied!",nocode:"No code",soon:"⏰ Expires soon",min:"Min",until:"Until ",noend:"No end date listed",src:"Source ↗",foot:"Updated daily ~8am Bangkok time · Always check terms in the app",load:"Loading…",err:"Could not load deals",left:n=>n==0?"Ends today":n==1?"1 day left":n+" days left",cats:{}},
+th:{title:"🇹🇭 คูปองเด็ดประจำวัน Top 10",sub:"10 อันดับแรก ตามด้วยดีลแนะนำเพิ่มเติม",copy:"คัดลอก",copied:"คัดลอกแล้ว!",nocode:"ไม่มีโค้ด",soon:"⏰ ใกล้หมดเขต",min:"ขั้นต่ำ",until:"ถึง ",noend:"ไม่ระบุวันหมดเขต",src:"ที่มา ↗",foot:"อัปเดตทุกวันราว 8 โมงเช้า (เวลากรุงเทพฯ) · โปรดตรวจสอบเงื่อนไขในแอปทุกครั้ง",load:"กำลังโหลด…",err:"โหลดดีลไม่สำเร็จ",left:n=>n==0?"หมดเขตวันนี้":"หมดเขตใน "+n+" วัน",cats:{All:"ทั้งหมด",Food:"เดลิเวอรี",Restaurants:"ร้านอาหาร",Supermarkets:"ซูเปอร์มาร์เก็ต",Shopping:"ช้อปปิ้ง",Rides:"เดินทาง",Travel:"ท่องเที่ยว","AI Tools":"เครื่องมือ AI","Card Perks":"สิทธิพิเศษบัตร"}}};
+const qp=new URLSearchParams(location.search).get("lang");let lang=(qp=="th"||qp=="en")?qp:(localStorage.getItem("lang")||((navigator.language||"").toLowerCase().startsWith("th")?"th":"en"));if(qp==lang)localStorage.setItem("lang",lang);
+const L=()=>I18N[lang],tr=(o,k)=>lang=="th"&&o[k+"_th"]?o[k+"_th"]:o[k],cn=c=>L().cats[c]||c;
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const fmt=d=>new Date(d+"T00:00:00").toLocaleDateString("en-GB",{weekday:"short",day:"numeric",month:"short",year:"numeric"});
-function copy(t,b){const done=()=>{b.textContent="Copied!";b.classList.add("ok");setTimeout(()=>{b.textContent="Copy";b.classList.remove("ok")},1500)};
+const fmt=d=>new Date(d+"T00:00:00").toLocaleDateString(lang=="th"?"th-TH":"en-GB",{weekday:"short",day:"numeric",month:"short",year:"numeric"});
+function copy(t,b){const done=()=>{b.textContent=L().copied;b.classList.add("ok");setTimeout(()=>{b.textContent=L().copy;b.classList.remove("ok")},1500)};
 if(navigator.clipboard&&window.isSecureContext)navigator.clipboard.writeText(t).then(done,()=>fb(t,done));else fb(t,done)}
 function fb(t,done){const a=document.createElement("textarea");a.value=t;a.style.position="fixed";a.style.opacity="0";document.body.appendChild(a);a.select();try{document.execCommand("copy")}catch(e){}a.remove();done()}
 function render(){const base=new Date(data.date+"T00:00:00");document.getElementById("list").innerHTML=data.deals.filter(d=>cur=="All"||d.category==cur).map(d=>{
 const days=d.expiry?Math.round((new Date(d.expiry+"T00:00:00")-base)/864e5):null,soon=days!==null&&days>=0&&days<=3;
-const codes=d.codes&&d.codes.length?d.codes.map(c=>`<div class="code"><div class="c">${esc(c.code)}<small>${esc(c.label)}</small></div><button class="copy" data-code="${esc(c.code)}">Copy</button></div>`).join(""):`<div class="nocode">No code</div>${d.claim?`<p class="why">👉 ${esc(d.claim)}</p>`:""}`;
-return `<article class="card${soon?" soon":""}"><div class="top"><div class="rank">${d.rank}</div><span class="chip" style="background:${COLORS[d.brand]||"#555"}">${esc(d.brand)}</span><span class="cat">${esc(d.category)}</span>${soon?`<span class="soonb">⏰ Expires soon</span>`:""}</div>
-<h2>${esc(d.title)}</h2><div class="disc">${esc(d.discount)}</div><div class="meta"><span>🛒 Min: ${esc(d.minSpend)}</span><span>📅 ${d.expiry?"Until "+fmt(d.expiry):"No end date listed"}</span></div>
-${codes}<p class="why">💡 ${esc(d.why)}</p><a class="src" href="${esc(d.source)}" target="_blank" rel="noopener">Source ↗</a></article>`}).join("")}
-document.getElementById("f").innerHTML=CATS.map(c=>`<button data-c="${c}" class="${c==cur?"on":""}">${c}</button>`).join("");
+const codes=d.codes&&d.codes.length?d.codes.map(c=>`<div class="code"><div class="c">${esc(c.code)}<small>${esc(tr(c,"label"))}</small></div><button class="copy" data-code="${esc(c.code)}">${L().copy}</button></div>`).join(""):`<div class="nocode">${L().nocode}</div>${d.claim?`<p class="why">👉 ${esc(tr(d,"claim"))}</p>`:""}`;
+return `<article class="card${soon?" soon":""}"><div class="top"><div class="rank">${d.rank}</div><span class="chip" style="background:${COLORS[d.brand]||"#555"}">${esc(d.brand)}</span><span class="cat">${esc(cn(d.category))}</span>${soon?`<span class="soonb">${L().soon} · ${L().left(days)}</span>`:""}</div>
+<h2>${esc(tr(d,"title"))}</h2><div class="disc">${esc(tr(d,"discount"))}</div><div class="meta"><span>🛒 ${L().min}: ${esc(tr(d,"minSpend"))}</span><span>📅 ${d.expiry?L().until+fmt(d.expiry):L().noend}</span></div>
+${codes}<p class="why">💡 ${esc(tr(d,"why"))}</p><a class="src" href="${esc(d.source)}" target="_blank" rel="noopener">${L().src}</a></article>`}).join("")}
+function ui(){document.documentElement.lang=lang;document.title=lang=="th"?"คูปองเด็ดประจำวัน Top 10":"Thailand Coupon Top 10";ttl.textContent=L().title;sub.textContent=L().sub;foot.textContent=L().foot;
+document.querySelectorAll(".lang button").forEach(b=>b.classList.toggle("on",b.dataset.l==lang));
+document.getElementById("f").innerHTML=CATS.map(c=>`<button data-c="${c}" class="${c==cur?"on":""}">${cn(c)}</button>`).join("");
+document.getElementById("date").textContent=data?fmt(data.date):L().load;if(data)render()}
+document.querySelector(".lang").onclick=e=>{const l=e.target.dataset.l;if(!l||l==lang)return;lang=l;localStorage.setItem("lang",l);ui()};ui();
 document.getElementById("f").onclick=e=>{const c=e.target.dataset.c;if(!c)return;cur=c;document.querySelectorAll("#f button").forEach(b=>b.classList.toggle("on",b.dataset.c==c));render()};
 document.getElementById("list").onclick=e=>{const b=e.target.closest(".copy");if(b)copy(b.dataset.code,b)};
-fetch("deals.json?"+Date.now()).then(r=>r.json()).then(j=>{data=j;document.getElementById("date").textContent=fmt(j.date);render()}).catch(()=>document.getElementById("date").textContent="Could not load deals");
+fetch("deals.json?"+Date.now()).then(r=>r.json()).then(j=>{data=j;ui()}).catch(()=>document.getElementById("date").textContent=L().err);
 </script></body></html>

@@ -21,6 +21,11 @@ All content lives in `deals.json`; `index.html` never needs editing.
   }]
 }
 ```
+## Thai fields (optional, but fill them in every day)
+The page has a TH | EN switch (also `?lang=th` / `?lang=en`). Each English text field has an optional Thai twin; the page falls back to English when missing:
+`title_th`, `discount_th`, `minSpend_th`, `why_th`, `claim_th`, and per code `label_th`.
+Codes, brand, category, expiry and source are never translated. **Daily updates should fill in all `_th` fields** using natural Thai (e.g. "ลด ฿50", "ขั้นต่ำ", "ใช้ได้ 2 ครั้ง/เดือน").
+
 Keep it public-safe: deals only, no personal data.
 
 ## Daily update
