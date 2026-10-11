@@ -26,17 +26,23 @@ h2{font-size:1.15rem;margin:12px 0 4px}.disc{font-size:1.35rem;font-weight:800;c
 .nocode{display:inline-block;background:#fef3c7;color:#92400e;font-weight:700;padding:10px 14px;border-radius:10px;border:2px dashed #f59e0b;margin:6px 0}
 .why{font-size:.9rem;color:#555;margin:8px 0}.src{font-size:.88rem;color:#4c1d95;font-weight:600}
 .lang{position:absolute;top:14px;right:14px;display:flex;background:#ffffff22;border:1.5px solid #ffffff66;border-radius:999px;padding:3px}.lang button{border:0;background:transparent;color:#fff;font:inherit;font-weight:700;padding:6px 13px;border-radius:999px;cursor:pointer;font-size:.85rem}.lang button.on{background:#fff;color:#4c1d95}header{position:relative;padding-top:58px}
+.brands{display:flex;gap:8px;overflow-x:auto;padding:0 16px 10px;justify-content:flex-start;-webkit-overflow-scrolling:touch;scrollbar-width:none}.brands::-webkit-scrollbar{display:none}
+.brands button{border:0;padding:8px 14px;border-radius:999px;background:#fff;font-weight:700;box-shadow:0 1px 3px #0002;cursor:pointer;font-size:.88rem;white-space:nowrap;color:#fff;flex:0 0 auto}.brands button.all{background:#fff;color:#1e1b4b}.brands button.on{outline:3px solid #1e1b4b;outline-offset:1px;box-shadow:0 0 0 3px #c4b5fd}
+.chip{cursor:pointer}.chip:hover{filter:brightness(1.08)}
+.empty{text-align:center;padding:36px 18px;color:#555;background:#fff;border-radius:18px;box-shadow:0 4px 18px #1e1b4b14}
 .sect{font-size:1.05rem;font-weight:800;color:#1e1b4b;margin:18px 2px 2px;letter-spacing:-.01em}.sect.more{margin-top:28px;padding-top:14px;border-top:2px dashed #c4b5fd;color:#5b21b6}footer{text-align:center;color:#777;padding:20px;font-size:.9rem}
 </style></head><body>
 <header><div class="lang" role="group" aria-label="Language"><button data-l="th">TH</button><button data-l="en">EN</button></div><h1 id="ttl">🇹🇭 Bangkok Daily Deals</h1><p id="sub" style="margin:4px 0 0;opacity:.8">Today's best promo codes for food, rides, shopping, travel &amp; AI tools — tap to copy</p><p id="date">Loading…</p></header>
-<div class="filters" id="f"></div><main id="list"></main>
+<div class="brands" id="b" role="group" aria-label="Brands"></div><div class="filters" id="f"></div><main id="list"></main>
 <footer id="foot"></footer>
 <script>
 const COLORS={"Grab":"#00b14f","Airalo":"#0a7cff","Klook":"#ff5b00","TikTok Shop":"#111","Shopee":"#ee4d2d","Lazada":"#0f146d","Central":"#b8860b","McDonald's":"#da291c","KFC":"#a3080c","Burger King":"#d62300","The Pizza Company":"#e31837","Swensen's":"#c8102e","Sizzler":"#7a1f2b","Bonchon":"#3d1f12","Dairy Queen":"#0055a5","MK":"#c4161c","Bar B Q Plaza":"#2e7d32","After You":"#8b5e3c","Starbucks":"#00704a","Café Amazon":"#5b8c3a","Lotus's":"#00a3a6","Big C":"#e2001a","Makro":"#e30613","Tops":"#e4002b","Gourmet Market":"#2b2b2b","Villa":"#1b5e20","7-Eleven":"#f58220","CardX":"#6d28d9","SCB":"#4e2a84","POINTX":"#8b5cf6","KTC":"#e60012","Agoda":"#5b2c83","Trip.com":"#287dfa","Thai Lion Air":"#e2231a","Hark":"#334155","Repaint":"#db2777","LINE MAN":"#06c755","Claude":"#d97757","OpenCode":"#1f2937","Watsons":"#00a19a"};
-const CATS=["All","Food","Restaurants","Supermarkets","Shopping","Rides","Travel","AI Tools","Card Perks"];let data,cur="All";
-const I18N={en:{title:"🇹🇭 Bangkok Daily Deals",sub:"Today's best promo codes for food, rides, shopping, travel & AI tools — tap to copy",updated:"Updated ",top10:"Today's Top 10",more:"More picks by category",copy:"Copy",copied:"Copied!",nocode:"No code",soon:"⏰ Expires soon",min:"Min",until:"Until ",noend:"No end date listed",src:"Source ↗",foot:"Updated daily ~8am Bangkok time · Always check terms in the app",load:"Loading…",err:"Could not load deals",left:n=>n==0?"Ends today":n==1?"1 day left":n+" days left",cats:{}},
-th:{title:"🇹🇭 ดีลเด็ดกรุงเทพฯ ประจำวัน",sub:"รวมโค้ดส่วนลดอาหาร เดินทาง ช็อปปิ้ง ท่องเที่ยว และ AI ที่ใช้ได้วันนี้ — แตะเพื่อคัดลอก",updated:"อัปเดต ",top10:"ท็อป 10 วันนี้",more:"ดีลเพิ่มเติมตามหมวด",copy:"คัดลอก",copied:"คัดลอกแล้ว!",nocode:"ไม่มีโค้ด",soon:"⏰ ใกล้หมดเขต",min:"ขั้นต่ำ",until:"ถึง ",noend:"ไม่ระบุวันหมดเขต",src:"ที่มา ↗",foot:"อัปเดตทุกวันราว 8 โมงเช้า (เวลากรุงเทพฯ) · โปรดตรวจสอบเงื่อนไขในแอปทุกครั้ง",load:"กำลังโหลด…",err:"โหลดดีลไม่สำเร็จ",left:n=>n==0?"หมดเขตวันนี้":"หมดเขตใน "+n+" วัน",cats:{All:"ทั้งหมด",Food:"เดลิเวอรี",Restaurants:"ร้านอาหาร",Supermarkets:"ซูเปอร์มาร์เก็ต",Shopping:"ช้อปปิ้ง",Rides:"เดินทาง",Travel:"ท่องเที่ยว","AI Tools":"เครื่องมือ AI","Card Perks":"สิทธิพิเศษบัตร"}}};
-const qp=new URLSearchParams(location.search).get("lang");let lang=(qp=="th"||qp=="en")?qp:(localStorage.getItem("lang")||((navigator.language||"").toLowerCase().startsWith("th")?"th":"en"));if(qp==lang)localStorage.setItem("lang",lang);
+const CATS=["All","Food","Restaurants","Supermarkets","Shopping","Rides","Travel","AI Tools","Card Perks"];let data,cur="All",brand="";
+const params=new URLSearchParams(location.search);
+const I18N={en:{title:"🇹🇭 Bangkok Daily Deals",sub:"Today's best promo codes for food, rides, shopping, travel & AI tools — tap to copy",updated:"Updated ",top10:"Today's Top 10",more:"More picks by category",allBrands:"All brands",empty:"No deals match this filter. Try another brand or category.",copy:"Copy",copied:"Copied!",nocode:"No code",soon:"⏰ Expires soon",min:"Min",until:"Until ",noend:"No end date listed",src:"Source ↗",foot:"Updated daily ~8am Bangkok time · Always check terms in the app",load:"Loading…",err:"Could not load deals",left:n=>n==0?"Ends today":n==1?"1 day left":n+" days left",cats:{}},
+th:{title:"🇹🇭 ดีลเด็ดกรุงเทพฯ ประจำวัน",sub:"รวมโค้ดส่วนลดอาหาร เดินทาง ช็อปปิ้ง ท่องเที่ยว และ AI ที่ใช้ได้วันนี้ — แตะเพื่อคัดลอก",updated:"อัปเดต ",top10:"ท็อป 10 วันนี้",more:"ดีลเพิ่มเติมตามหมวด",allBrands:"ทุกแบรนด์",empty:"ไม่มีดีลที่ตรงกับตัวกรองนี้ ลองเปลี่ยนแบรนด์หรือหมวดหมู่",copy:"คัดลอก",copied:"คัดลอกแล้ว!",nocode:"ไม่มีโค้ด",soon:"⏰ ใกล้หมดเขต",min:"ขั้นต่ำ",until:"ถึง ",noend:"ไม่ระบุวันหมดเขต",src:"ที่มา ↗",foot:"อัปเดตทุกวันราว 8 โมงเช้า (เวลากรุงเทพฯ) · โปรดตรวจสอบเงื่อนไขในแอปทุกครั้ง",load:"กำลังโหลด…",err:"โหลดดีลไม่สำเร็จ",left:n=>n==0?"หมดเขตวันนี้":"หมดเขตใน "+n+" วัน",cats:{All:"ทั้งหมด",Food:"เดลิเวอรี",Restaurants:"ร้านอาหาร",Supermarkets:"ซูเปอร์มาร์เก็ต",Shopping:"ช้อปปิ้ง",Rides:"เดินทาง",Travel:"ท่องเที่ยว","AI Tools":"เครื่องมือ AI","Card Perks":"สิทธิพิเศษบัตร"}}};
+const qp=params.get("lang");let lang=(qp=="th"||qp=="en")?qp:(localStorage.getItem("lang")||((navigator.language||"").toLowerCase().startsWith("th")?"th":"en"));if(qp==lang)localStorage.setItem("lang",lang);
+brand=params.get("brand")||"";
 const L=()=>I18N[lang],tr=(o,k)=>lang=="th"&&o[k+"_th"]?o[k+"_th"]:o[k],cn=c=>L().cats[c]||c;
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const fmt=d=>new Date(d+"T00:00:00").toLocaleDateString(lang=="th"?"th-TH":"en-GB",{weekday:"short",day:"numeric",month:"short",year:"numeric"});
@@ -45,12 +51,20 @@ if(navigator.clipboard&&window.isSecureContext)navigator.clipboard.writeText(t).
 function fb(t,done){const a=document.createElement("textarea");a.value=t;a.style.position="fixed";a.style.opacity="0";document.body.appendChild(a);a.select();try{document.execCommand("copy")}catch(e){}a.remove();done()}
 function card(d,base){const days=d.expiry?Math.round((new Date(d.expiry+"T00:00:00")-base)/864e5):null,soon=days!==null&&days>=0&&days<=3;
 const codes=d.codes&&d.codes.length?d.codes.map(c=>`<div class="code"><div class="c">${esc(c.code)}<small>${esc(tr(c,"label"))}</small></div><button class="copy" data-code="${esc(c.code)}">${L().copy}</button></div>`).join(""):`<div class="nocode">${L().nocode}</div>${d.claim?`<p class="why">👉 ${esc(tr(d,"claim"))}</p>`:""}`;
-return `<article class="card${soon?" soon":""}"><div class="top"><div class="rank">${d.rank}</div><span class="chip" style="background:${COLORS[d.brand]||"#555"}">${esc(d.brand)}</span><span class="cat">${esc(cn(d.category))}</span>${soon?`<span class="soonb">${L().soon} · ${L().left(days)}</span>`:""}</div>
+return `<article class="card${soon?" soon":""}"><div class="top"><div class="rank">${d.rank}</div><button type="button" class="chip" data-brand="${esc(d.brand)}" style="background:${COLORS[d.brand]||"#555"};border:0;font:inherit">${esc(d.brand)}</button><span class="cat">${esc(cn(d.category))}</span>${soon?`<span class="soonb">${L().soon} · ${L().left(days)}</span>`:""}</div>
 <h2>${esc(tr(d,"title"))}</h2><div class="disc">${esc(tr(d,"discount"))}</div><div class="meta"><span>🛒 ${L().min}: ${esc(tr(d,"minSpend"))}</span><span>📅 ${d.expiry?L().until+fmt(d.expiry):L().noend}</span></div>
 ${codes}<p class="why">💡 ${esc(tr(d,"why"))}</p><a class="src" href="${esc(d.source)}" target="_blank" rel="noopener">${L().src}</a></article>`}
-function render(){const base=new Date(data.date+"T00:00:00");const items=data.deals.filter(d=>cur=="All"||d.category==cur);
+function filtered(){return data.deals.filter(d=>(cur=="All"||d.category==cur)&&(!brand||d.brand==brand))}
+function setBrand(b){brand=(b&&b===brand)?"":(b||"");const u=new URL(location.href);if(brand)u.searchParams.set("brand",brand);else u.searchParams.delete("brand");history.replaceState(null,"",u);renderBrands();render()}
+function renderBrands(){if(!data){document.getElementById("b").innerHTML="";return}
+const counts={};data.deals.forEach(d=>{counts[d.brand]=(counts[d.brand]||0)+1});
+const brands=Object.keys(counts).sort((a,b)=>counts[b]-counts[a]||a.localeCompare(b));
+const allOn=!brand;
+document.getElementById("b").innerHTML=`<button type="button" class="all${allOn?" on":""}" data-brand="">${L().allBrands}</button>`+brands.map(n=>{const on=brand==n;const bg=COLORS[n]||"#555";return `<button type="button" data-brand="${esc(n)}" class="${on?"on":""}" style="background:${bg}">${esc(n)} ${counts[n]}</button>`}).join("")}
+function render(){const base=new Date(data.date+"T00:00:00");const items=filtered();
 let html="";
-if(cur=="All"){const top=items.filter(d=>d.rank<=10),extra=items.filter(d=>d.rank>10);
+if(!items.length){html=`<div class="empty">${L().empty}</div>`}
+else if(cur=="All"&&!brand){const top=items.filter(d=>d.rank<=10),extra=items.filter(d=>d.rank>10);
 if(top.length)html+=`<div class="sect">${L().top10}</div>`+top.map(d=>card(d,base)).join("");
 if(extra.length)html+=`<div class="sect more">${L().more}</div>`+extra.map(d=>card(d,base)).join("");
 }else html=items.map(d=>card(d,base)).join("");
@@ -60,9 +74,10 @@ const md=document.querySelector('meta[name="description"]'),ogt=document.querySe
 if(md)md.content=s;if(ogt)ogt.content=t;if(ogd)ogd.content=s;if(ogl)ogl.content=lang=="th"?"th_TH":"en_US";
 document.querySelectorAll(".lang button").forEach(b=>b.classList.toggle("on",b.dataset.l==lang));
 document.getElementById("f").innerHTML=CATS.map(c=>`<button data-c="${c}" class="${c==cur?"on":""}">${cn(c)}</button>`).join("");
-document.getElementById("date").textContent=data?(L().updated+fmt(data.date)):L().load;if(data)render()}
+document.getElementById("date").textContent=data?(L().updated+fmt(data.date)):L().load;renderBrands();if(data)render()}
 document.querySelector(".lang").onclick=e=>{const l=e.target.dataset.l;if(!l||l==lang)return;lang=l;localStorage.setItem("lang",l);ui()};ui();
 document.getElementById("f").onclick=e=>{const c=e.target.dataset.c;if(!c)return;cur=c;document.querySelectorAll("#f button").forEach(b=>b.classList.toggle("on",b.dataset.c==c));render()};
-document.getElementById("list").onclick=e=>{const b=e.target.closest(".copy");if(b)copy(b.dataset.code,b)};
-fetch("deals.json?"+Date.now()).then(r=>r.json()).then(j=>{data=j;ui()}).catch(()=>document.getElementById("date").textContent=L().err);
+document.getElementById("b").onclick=e=>{const btn=e.target.closest("button[data-brand]");if(!btn)return;setBrand(btn.dataset.brand)};
+document.getElementById("list").onclick=e=>{const copyBtn=e.target.closest(".copy");if(copyBtn){copy(copyBtn.dataset.code,copyBtn);return}const chip=e.target.closest(".chip[data-brand]");if(chip)setBrand(chip.dataset.brand)};
+fetch("deals.json?"+Date.now()).then(r=>r.json()).then(j=>{data=j;if(brand&&!data.deals.some(d=>d.brand==brand))brand="";ui()}).catch(()=>document.getElementById("date").textContent=L().err);
 </script></body></html>
