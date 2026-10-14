@@ -2,7 +2,7 @@
 
 All content lives in `deals.json`; nothing else needs editing.
 
-**Display moved (2026-10-13):** the page is now the Deals tab of Piyaster Flix (https://piyaster11.github.io/piyaster-flix/#deals, code in piyaster11/piyaster-flix `deals.js`). That tab loads this repo's live `https://piyaster11.github.io/thai-coupon-dashboard/deals.json`, so keep updating `deals.json` HERE exactly as before. `index.html` is now a redirect; the old standalone page is kept as `dashboard-old.html`. Brand colors live in `DCOL` in piyaster-flix `deals.js`.
+**Standalone page restored (2026-10-14):** `index.html` is again the full Bangkok Daily Deals page (people still use it) with a Deals | Events tab (`#events`, reads `events.json`). Piyaster Flix #deals/#events also reads this repo's `deals.json`/`events.json`, so keep updating them HERE.
 
 ## Schema
 ```json
