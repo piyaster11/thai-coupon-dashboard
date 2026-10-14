@@ -47,3 +47,22 @@ GitHub Pages redeploys in ~1 minute.
 - Free tier: 100k Worker requests/day, KV 100k reads and 1,000 writes/day (each counted copy = 2 writes, so ~500 counted copies/day). Over the limit, counting fails silently; the page still works.
 - Set in index.html via the `COUNTER_URL` constant at the top of the script.
 - Daily deals.json updates need NO counter changes: counts are keyed by code, and new codes start at 0 automatically.
+
+## Events (events.json)
+Single source for the Events tab on Piyaster Flix (`events.js` fetches
+https://piyaster11.github.io/thai-coupon-dashboard/events.json). `index.html#events` redirects to `piyaster-flix/#events`.
+
+```json
+{"updated":"YYYY-MM-DD","events":[{
+  "id":"unique-slug","title":"","title_th":"",
+  "category":"Concerts|TCG|Exhibitions|Festivals|Openings|Food & Cafe",
+  "start":"2026-11-09T20:00:00+07:00 or 2026-11-09 (allDay)","end":"same format",
+  "allDay":true,"ongoing":false,
+  "venue":"","venue_th":"","area":"","price":"",
+  "desc":"","desc_th":"","url":"source / ticket page"}]}
+```
+- Only real events with a verifiable source URL; never invent dates. Sorted by start.
+- allDay events use plain dates; `end` is inclusive. Timed events use ISO with `+07:00`.
+- `ongoing: true` = new cafe/shop already open; `start` = opening date, `end` = "feature until" date.
+- Past events (end < now) are hidden client-side; prune them on refresh.
+- Each card gets a Google Calendar link and a client-side .ics download (Asia/Bangkok).
