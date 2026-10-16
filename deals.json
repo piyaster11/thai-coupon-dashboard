@@ -1,434 +1,443 @@
 {
-  "date": "2026-10-15",
-  "deals": [
+ "date": "2026-10-16",
+ "deals": [
+  {
+   "brand": "TAT",
+   "category": "Travel",
+   "title": "FLYTODOM: ฿500 off domestic flights on 7 airlines",
+   "title_th": "FLYTODOM: ลด ฿500 ตั๋วเครื่องบินในประเทศ 7 สายการบิน",
+   "discount": "฿500 off per booking",
+   "discount_th": "ลด ฿500 ต่อการจอง",
+   "minSpend": "Regular-fare domestic tickets",
+   "minSpend_th": "ตั๋วในประเทศราคาปกติ",
+   "expiry": "2026-12-15",
+   "codes": [
     {
-      "rank": 1,
-      "brand": "ShopeeFood",
-      "category": "Card Perks",
-      "title": "ShopeeFood POINTX 50% back (starts today)",
-      "discount": "50% POINTX back",
-      "minSpend": "None",
-      "expiry": "2026-12-31",
-      "codes": [],
-      "claim": "In ShopeeFood, pay via SCB Easy QR PromptPay with POINTX (full or partial).",
-      "claim_th": "ใน ShopeeFood จ่ายผ่าน QR พร้อมเพย์บน SCB Easy ด้วยคะแนน POINTX (เต็มจำนวนหรือบางส่วน)",
-      "why": "Fresh today — campaign starts 15 Oct. Cap 3,000 POINTX/week; bonus points last 15 days.",
-      "source": "https://pointx.com/shopee-food-2026/",
-      "title_th": "ShopeeFood คืนพอยท์ POINTX 50% (เริ่มวันนี้)",
-      "discount_th": "คืนพอยท์ 50%",
-      "minSpend_th": "ไม่มี",
-      "why_th": "ใหม่วันนี้ — แคมเปญเริ่ม 15 ต.ค. สูงสุด 3,000 พอยท์/สัปดาห์ พอยท์พิเศษมีอายุ 15 วัน"
-    },
-    {
-      "rank": 2,
-      "brand": "Starbucks",
-      "category": "Card Perks",
-      "title": "Starbucks POINTX cashback (50% Tue–Thu)",
-      "discount": "50% POINTX back Tue–Thu / 25% Fri–Mon",
-      "minSpend": "None",
-      "expiry": "2026-12-31",
-      "codes": [],
-      "claim": "Scan SCB Easy QR PromptPay at Starbucks and pay with POINTX (full or partial).",
-      "claim_th": "สแกน QR พร้อมเพย์บน SCB Easy ที่ Starbucks แล้วจ่ายด้วยคะแนน POINTX (เต็มจำนวนหรือบางส่วน)",
-      "why": "Today is Thursday — last 50% day this week. Cap 3,000 POINTX/week; bonus points last 15 days.",
-      "source": "https://pointx.com/starbucks_oct26-dec26/",
-      "title_th": "Starbucks คืนพอยท์ POINTX (50% อังคาร–พฤหัส)",
-      "discount_th": "คืนพอยท์ 50% อังคาร–พฤหัส / 25% ศุกร์–จันทร์",
-      "minSpend_th": "ไม่มี",
-      "why_th": "วันนี้วันพฤหัส — วันสุดท้ายของสัปดาห์ที่คืน 50% สูงสุด 3,000 พอยท์/สัปดาห์ พอยท์พิเศษมีอายุ 15 วัน"
-    },
-    {
-      "rank": 3,
-      "brand": "Grab",
-      "category": "Food",
-      "title": "GrabFood Hot Deals (ends soon)",
-      "discount": "5% off (max ฿50) now + 4 follow-up 10% coupons (max ฿50 each)",
-      "minSpend": "฿200 (follow-ups ฿250)",
-      "expiry": "2026-10-24",
-      "codes": [
-        {
-          "code": "HOT",
-          "label": "1x per day, Bangkok area",
-          "label_th": "วันละ 1 ครั้ง เขตกรุงเทพฯ และปริมณฑล"
-        }
-      ],
-      "why": "Still the best everyday GrabFood code; campaign ends 24 Oct — repeating because it ends soon.",
-      "source": "https://www.grab.com/th/en/blog/grabfood-hotdeals/",
-      "title_th": "โค้ด GrabFood Hot Deals (ใกล้หมด)",
-      "discount_th": "ลด 5% (สูงสุด ฿50) + คูปองลด 10% อีก 4 ใบ (สูงสุดใบละ ฿50)",
-      "minSpend_th": "฿200 (คูปองถัดไป ฿250)",
-      "why_th": "ยังเป็นโค้ด GrabFood ใช้ได้ทุกวันที่คุ้มที่สุด แคมเปญหมด 24 ต.ค. — ซ้ำเพราะใกล้หมดเขต"
-    },
-    {
-      "rank": 4,
-      "brand": "Agoda",
-      "category": "Travel",
-      "title": "Agoda x CardX hotel discount (rotated in)",
-      "discount": "20% off room rate, max ฿1,000",
-      "minSpend": "฿5,000 per booking",
-      "expiry": "2026-10-31",
-      "codes": [],
-      "claim": "Book only via agoda.com/cardx, pay in THB full amount with a CardX or SCB credit card. Look for Promotion Eligible hotels.",
-      "claim_th": "จองเฉพาะผ่าน agoda.com/cardx ชำระเต็มจำนวนเป็นบาทด้วยบัตรเครดิต CardX หรือ SCB เลือกโรงแรมที่มีป้าย Promotion Eligible",
-      "why": "New rotation for Asia hotel bookings. Book by 31 Oct, stay by 31 Mar 2027. Only 300 seats campaign-wide; 1x per card per month.",
-      "source": "https://www.agoda.com/cardx",
-      "title_th": "Agoda x CardX ส่วนลดโรงแรม (หมุนเข้า Top 10)",
-      "discount_th": "ลด 20% ค่าห้อง สูงสุด ฿1,000",
-      "minSpend_th": "฿5,000 ต่อรายการ",
-      "why_th": "หมุนเข้าใหม่สำหรับจองโรงแรมทริปเอเชีย จองภายใน 31 ต.ค. เข้าพักถึง 31 มี.ค. 2570 จำกัด 300 สิทธิ์ทั้งแคมเปญ และ 1 ครั้ง/บัตร/เดือน"
-    },
-    {
-      "rank": 5,
-      "brand": "AiPASS",
-      "category": "AI Tools",
-      "title": "AiPASS 2.0: free Gemini Enterprise",
-      "discount": "Free up to 10 months",
-      "minSpend": "1,000 learning points on AiPASS",
-      "expiry": "2026-11-02",
-      "codes": [],
-      "claim": "Earn 1,000 points on aipass.go.th, then claim Gemini Enterprise before 2 Nov.",
-      "claim_th": "สะสม 1,000 คะแนนที่ aipass.go.th แล้วกดรับ Gemini Enterprise ก่อน 2 พ.ย.",
-      "why": "500,000 seats. Claim by 2 Nov; access starts 9 Nov. Pick Gemini Enterprise or the base AiPASS seat — not both.",
-      "source": "https://aipass.go.th/",
-      "title_th": "AiPASS 2.0: ฟรี Gemini Enterprise",
-      "discount_th": "ฟรีสูงสุด 10 เดือน",
-      "minSpend_th": "สะสมคะแนนเรียน 1,000 คะแนนบน AiPASS",
-      "why_th": "จำกัด 500,000 สิทธิ์ กดรับก่อน 2 พ.ย. เริ่มใช้ 9 พ.ย. เลือกได้ระหว่าง Gemini Enterprise หรือสิทธิ์ AiPASS ปกติ — ไม่ได้ทั้งสอง"
-    },
-    {
-      "rank": 6,
-      "brand": "LINE MAN",
-      "category": "Food",
-      "title": "LINE MAN x CardX food & Mart codes",
-      "discount": "฿50 off food / ฿50 off Mart",
-      "minSpend": "฿300 food / ฿400 Mart",
-      "expiry": "2026-10-31",
-      "codes": [
-        {
-          "code": "CARDXFOOD",
-          "label": "LINE MAN food, 2x per month",
-          "label_th": "ค่าอาหาร LINE MAN 2 ครั้ง/เดือน"
-        },
-        {
-          "code": "CARDXMART",
-          "label": "LINE MAN Mart, 2x per month",
-          "label_th": "LINE MAN Mart 2 ครั้ง/เดือน"
-        }
-      ],
-      "why": "Pay with a CardX or SCB credit card. Separate quota from Grab's CardX codes. Still listed in Oct 2026 roundups.",
-      "source": "https://lineman.line.me/partnership-cardx/",
-      "title_th": "โค้ด LINE MAN x CardX ค่าอาหารและ Mart",
-      "discount_th": "ลด ฿50 ค่าอาหาร / ลด ฿50 ค่าสินค้า Mart",
-      "minSpend_th": "ค่าอาหาร ฿300 / Mart ฿400",
-      "why_th": "ชำระด้วยบัตรเครดิต CardX หรือ SCB สิทธิ์แยกจากโค้ด CardX ของ Grab ยังพบในสรุปโค้ดต.ค. 2569"
-    },
-    {
-      "rank": 7,
-      "brand": "Airalo",
-      "category": "Travel",
-      "title": "Airalo Japan eSIM code",
-      "discount": "15% off any eSIM, max $5",
-      "minSpend": "None",
-      "expiry": "2030-02-05",
-      "codes": [
-        {
-          "code": "VISITJAPAN15",
-          "label": "1 redemption per account",
-          "label_th": "ใช้ได้ 1 ครั้งต่อบัญชี"
-        }
-      ],
-      "why": "Handy for Japan trip data. Works on Japan and other Airalo eSIMs; pay by card or PayPal.",
-      "source": "https://www.airalo.com/campaign/visitjapan15",
-      "title_th": "โค้ด eSIM ญี่ปุ่น Airalo",
-      "discount_th": "ลด 15% ทุก eSIM สูงสุด $5",
-      "minSpend_th": "ไม่มี",
-      "why_th": "เหมาะกับเน็ตทริปญี่ปุ่น ใช้กับ eSIM ญี่ปุ่นและประเทศอื่นบน Airalo จ่ายด้วยบัตรหรือ PayPal"
-    },
-    {
-      "rank": 8,
-      "brand": "Big C",
-      "category": "Supermarkets",
-      "title": "Big C Online household & office items",
-      "discount": "฿60 / ฿90 / ฿150 off",
-      "minSpend": "฿600 / ฿1,500 / ฿3,000",
-      "expiry": "2026-10-31",
-      "codes": [
-        {
-          "code": "HOL60",
-          "label": "฿60 off ฿600",
-          "label_th": "ลด ฿60 เมื่อครบ ฿600"
-        },
-        {
-          "code": "HOL90",
-          "label": "฿90 off ฿1,500",
-          "label_th": "ลด ฿90 เมื่อครบ ฿1,500"
-        },
-        {
-          "code": "HOL150",
-          "label": "฿150 off ฿3,000",
-          "label_th": "ลด ฿150 เมื่อครบ ฿3,000"
-        }
-      ],
-      "why": "Solid for a monthly stock-up; ends 31 Oct.",
-      "source": "https://www.bigc.co.th/p/terms-coupon-hol-disc-20261001",
-      "title_th": "Big C Online ของใช้ในบ้านและสำนักงาน",
-      "discount_th": "ลด ฿60 / ฿90 / ฿150",
-      "minSpend_th": "฿600 / ฿1,500 / ฿3,000",
-      "why_th": "เหมาะตุนของใช้ในบ้านรายเดือน หมด 31 ต.ค."
-    },
-    {
-      "rank": 9,
-      "brand": "McDonald's",
-      "category": "Restaurants",
-      "title": "McDonald's x CardX: Buy 1 Get 1",
-      "discount": "Free McFried chicken set (worth ฿79–109) with a ฿159 meal set",
-      "minSpend": "฿159 set",
-      "expiry": "2027-03-31",
-      "codes": [],
-      "claim": "Open the CardX app, claim the McDonald's QR, show it within 30 minutes, and pay with CardX.",
-      "claim_th": "เปิดแอป CardX กดรับ QR McDonald's แสดงภายใน 30 นาที แล้วชำระด้วยบัตร CardX",
-      "why": "Needs a CardX or SCB WEALTH by CardX credit card. Claim the QR in the CardX app (30-min window).",
-      "source": "https://homeday.co.th/articles/news/cardx-20261007",
-      "title_th": "McDonald's x CardX ซื้อ 1 ฟรี 1",
-      "discount_th": "ฟรีชุดไก่ทอดแมค (มูลค่า ฿79–109) เมื่อซื้อชุดเมนู ฿159",
-      "minSpend_th": "ชุด ฿159",
-      "why_th": "ต้องใช้บัตรเครดิต CardX หรือ SCB WEALTH by CardX กดรับ QR ในแอป CardX (ใช้ภายใน 30 นาที)"
-    },
-    {
-      "rank": 10,
-      "brand": "Trip.com",
-      "category": "Travel",
-      "title": "Trip.com flight code",
-      "discount": "฿150 off ฿4,800+ / ฿450 off ฿10,000+",
-      "minSpend": "฿4,800 (before tax)",
-      "expiry": null,
-      "codes": [
-        {
-          "code": "TRIPFLIGHT26TH",
-          "label": "Flights, fare before tax",
-          "label_th": "ตั๋วเครื่องบิน คิดจากราคาก่อนภาษี"
-        }
-      ],
-      "why": "Still listed on Trip.com Thailand's official promo page.",
-      "source": "https://th.trip.com/guide/airline-deals/promocode-Trip.com.html",
-      "title_th": "โค้ดตั๋วเครื่องบิน Trip.com",
-      "discount_th": "ลด ฿150 เมื่อครบ ฿4,800 / ลด ฿450 เมื่อครบ ฿10,000",
-      "minSpend_th": "฿4,800 (ก่อนภาษี)",
-      "why_th": "ยังแสดงบนหน้าโปรอย่างเป็นทางการของ Trip.com ไทย"
-    },
-    {
-      "rank": 11,
-      "brand": "Grab",
-      "category": "Rides",
-      "title": "GrabCar & GrabBike x CardX",
-      "discount": "฿30 off GrabCar / ฿5 off GrabBike",
-      "minSpend": "฿150 car / ฿30 bike",
-      "expiry": "2026-10-31",
-      "codes": [
-        {
-          "code": "CARDXCAR",
-          "label": "GrabCar, 2x per month",
-          "label_th": "GrabCar 2 ครั้ง/เดือน"
-        },
-        {
-          "code": "CARDXBIKE",
-          "label": "GrabBike, 3x per month",
-          "label_th": "GrabBike 3 ครั้ง/เดือน"
-        }
-      ],
-      "why": "Pay with a CardX or SCB credit card via GrabPay. Monthly quota is limited.",
-      "source": "https://www.grab.com/th/en/blog/cardx_may-july_2026/",
-      "title_th": "GrabCar และ GrabBike x CardX",
-      "discount_th": "ลด ฿30 GrabCar / ลด ฿5 GrabBike",
-      "minSpend_th": "รถยนต์ ฿150 / มอเตอร์ไซค์ ฿30",
-      "why_th": "ชำระด้วยบัตรเครดิต CardX หรือ SCB ผ่าน GrabPay สิทธิ์รายเดือนมีจำกัด"
-    },
-    {
-      "rank": 12,
-      "brand": "Grab",
-      "category": "Food",
-      "title": "GrabFood & GrabMart x CardX",
-      "discount": "฿50 off food / ฿50 off Mart",
-      "minSpend": "฿300 food / ฿400 Mart",
-      "expiry": "2026-10-31",
-      "codes": [
-        {
-          "code": "CARDXFOOD",
-          "label": "GrabFood, 2x per month",
-          "label_th": "GrabFood 2 ครั้ง/เดือน"
-        },
-        {
-          "code": "CARDXMART",
-          "label": "GrabMart, 2x per month",
-          "label_th": "GrabMart 2 ครั้ง/เดือน"
-        }
-      ],
-      "why": "Separate monthly quota from LINE MAN's same-named codes. Pay with CardX or SCB via GrabPay.",
-      "source": "https://www.grab.com/th/en/blog/cardx_may-july_2026/",
-      "title_th": "GrabFood และ GrabMart x CardX",
-      "discount_th": "ลด ฿50 ค่าอาหาร / ลด ฿50 GrabMart",
-      "minSpend_th": "ค่าอาหาร ฿300 / Mart ฿400",
-      "why_th": "สิทธิ์รายเดือนแยกจากโค้ดชื่อเดียวกันบน LINE MAN ชำระด้วย CardX หรือ SCB ผ่าน GrabPay"
-    },
-    {
-      "rank": 13,
-      "brand": "Klook",
-      "category": "Travel",
-      "title": "Klook activities with an SCB debit card",
-      "discount": "12% off, max ฿400",
-      "minSpend": "฿2,000",
-      "expiry": "2026-12-31",
-      "codes": [
-        {
-          "code": "SCBPLANET12",
-          "label": "Pay with an SCB debit / PLANET card",
-          "label_th": "ชำระด้วยบัตรเดบิต / PLANET SCB"
-        }
-      ],
-      "why": "Good for theme parks, tours and passes. Not valid on flights, gift cards or eSIM top-ups.",
-      "source": "https://www.scb.co.th/th/personal-banking/promotions/prepaid-card/planet-scb-klook",
-      "title_th": "กิจกรรม Klook จ่ายด้วยบัตรเดบิต SCB",
-      "discount_th": "ลด 12% สูงสุด ฿400",
-      "minSpend_th": "฿2,000",
-      "why_th": "เหมาะกับบัตรสวนสนุก ทัวร์ และพาส ใช้กับตั๋วเครื่องบิน บัตรของขวัญ และเติม eSIM ไม่ได้"
-    },
-    {
-      "rank": 14,
-      "brand": "Klook",
-      "category": "Travel",
-      "title": "Klook Japan bus tickets",
-      "discount": "5% off, max ฿234",
-      "minSpend": "None",
-      "expiry": "2026-10-31",
-      "codes": [
-        {
-          "code": "BUSLAUNCH5",
-          "label": "Up to 4 uses per user",
-          "label_th": "ใช้ได้สูงสุด 4 ครั้ง/คน"
-        }
-      ],
-      "why": "Airport and intercity buses in Japan; ends 31 Oct.",
-      "source": "https://ipricethailand.com/coupons/klook/",
-      "title_th": "ตั๋วรถบัสญี่ปุ่น Klook",
-      "discount_th": "ลด 5% สูงสุด ฿234",
-      "minSpend_th": "ไม่มี",
-      "why_th": "รถบัสสนามบินและข้ามเมืองในญี่ปุ่น หมด 31 ต.ค."
-    },
-    {
-      "rank": 15,
-      "brand": "Klook",
-      "category": "Travel",
-      "title": "Klook Japan eSIM for new users",
-      "discount": "50% off, max ฿99 (3-day unlimited data)",
-      "minSpend": "None",
-      "expiry": "2026-12-31",
-      "codes": [
-        {
-          "code": "KLOOKESIM99",
-          "label": "New Klook users; one-time use",
-          "label_th": "ลูกค้าใหม่ Klook ใช้ได้ครั้งเดียว"
-        }
-      ],
-      "why": "Handy for a first Asia trip eSIM. Also covers China, HK, Singapore, Vietnam, Taiwan, Korea and Europe.",
-      "source": "https://www.mytravelbuzzg.com/klook-promo-code-voucher/",
-      "title_th": "eSIM ญี่ปุ่น Klook สำหรับลูกค้าใหม่",
-      "discount_th": "ลด 50% สูงสุด ฿99 (เน็ตไม่จำกัด 3 วัน)",
-      "minSpend_th": "ไม่มี",
-      "why_th": "เหมาะกับ eSIM ทริปเอเชียครั้งแรก ใช้ได้กับจีน ฮ่องกง สิงคโปร์ เวียดนาม ไต้หวัน เกาหลี และยุโรปด้วย"
-    },
-    {
-      "rank": 16,
-      "brand": "Grab",
-      "category": "Food",
-      "title": "GrabFood Healthy Month code",
-      "discount": "Up to ฿100 off",
-      "minSpend": "Not stated",
-      "expiry": "2026-10-31",
-      "codes": [
-        {
-          "code": "GTUHEALTH",
-          "label": "Participating healthy menus",
-          "label_th": "เมนูสุขภาพที่ร่วมรายการ"
-        }
-      ],
-      "why": "Healthy menus from GrabThumbsUp restaurants through October.",
-      "source": "https://www.techoffside.com/2026/10/grabfood-healthy-month-12-restaurants-gtuhealth/",
-      "title_th": "โค้ด GrabFood Healthy Month",
-      "discount_th": "ลดสูงสุด ฿100",
-      "minSpend_th": "ไม่ระบุ",
-      "why_th": "เมนูสุขภาพจากร้าน GrabThumbsUp ตลอดเดือนตุลาคม"
-    },
-    {
-      "rank": 17,
-      "brand": "Bar B Q Plaza",
-      "category": "Restaurants",
-      "title": "Bar B Q Plaza seafood set ฿199",
-      "discount": "Seafood set at ฿199 (pick 1 from Group A + 1 from Group B)",
-      "minSpend": "None",
-      "expiry": "2026-11-15",
-      "codes": [],
-      "claim": "Order the seafood set at participating Bar B Q Plaza branches (not Central Park).",
-      "claim_th": "สั่งเซตซีฟู้ดที่สาขา Bar B Q Plaza ที่ร่วมรายการ (ยกเว้น Central Park)",
-      "why": "No code — in-store / app menu promo. Includes dipping sauce and unlimited fried garlic.",
-      "source": "https://salehere.co.th/barbq-plaza/promotions/seafood-set-199-baht",
-      "title_th": "Bar B Q Plaza เซตซีฟู้ด ฿199",
-      "discount_th": "เซตซีฟู้ด ฿199 (เลือก 1 จากกลุ่ม A + 1 จากกลุ่ม B)",
-      "minSpend_th": "ไม่มี",
-      "why_th": "ไม่มีโค้ด — โปรในร้าน/เมนู รวมน้ำจิ้มและกระเทียมเจียวไม่อั้น"
-    },
-    {
-      "rank": 18,
-      "brand": "KFC",
-      "category": "Restaurants",
-      "title": "KFC Seoul Hot chicken + free Viu Premium (ends soon)",
-      "discount": "From ฿49; free 30-day Viu Premium with a Seoul Hot box",
-      "minSpend": "None",
-      "expiry": "2026-10-28",
-      "codes": [],
-      "claim": "Use the 'FREE Viu Premium 30 days' reward in the KFC app.",
-      "claim_th": "กดใช้รีวอร์ด FREE Viu Premium 30 วัน ในแอป KFC",
-      "why": "Viu reward is for KFC Rewards members ordering Just Pick Up in the KFC app, 1,000 seats only. Ends 28 Oct — repeating because it ends soon.",
-      "source": "https://siamrath.co.th/press-release/324209",
-      "title_th": "KFC ไก่กรอบโซลฮอต + ฟรี Viu Premium (ใกล้หมด)",
-      "discount_th": "เริ่ม ฿49 และรับ Viu Premium ฟรี 30 วันเมื่อสั่งเดอะบอกซ์โซลฮอต",
-      "minSpend_th": "ไม่มี",
-      "why_th": "รีวอร์ด Viu สำหรับสมาชิก KFC Rewards ที่สั่งแบบ Just Pick Up ในแอป KFC จำกัด 1,000 สิทธิ์ หมด 28 ต.ค. — ซ้ำเพราะใกล้หมดเขต"
-    },
-    {
-      "rank": 19,
-      "brand": "Café Amazon",
-      "category": "Card Perks",
-      "title": "Café Amazon POINTX 30% back",
-      "discount": "30% POINTX back",
-      "minSpend": "None",
-      "expiry": "2026-12-31",
-      "codes": [],
-      "claim": "Scan SCB Easy QR PromptPay at Café Amazon and pay with POINTX.",
-      "claim_th": "สแกน QR พร้อมเพย์บน SCB Easy ที่ Café Amazon แล้วจ่ายด้วยคะแนน POINTX",
-      "why": "Pay with POINTX via SCB Easy QR PromptPay at any Café Amazon. Cap 2,000 POINTX/week. Not valid on delivery apps.",
-      "source": "https://pointx.com/cafeamazon_aug26-dec26/",
-      "title_th": "Café Amazon คืนพอยท์ POINTX 30%",
-      "discount_th": "คืนพอยท์ 30%",
-      "minSpend_th": "ไม่มี",
-      "why_th": "จ่ายด้วยคะแนน POINTX ผ่าน QR พร้อมเพย์บน SCB Easy ที่ Café Amazon ทุกสาขา สูงสุด 2,000 พอยท์/สัปดาห์ ใช้กับแอปเดลิเวอรีไม่ได้"
-    },
-    {
-      "rank": 20,
-      "brand": "Synthesia",
-      "category": "AI Tools",
-      "title": "Synthesia Syren: AI video from a prompt (free beta)",
-      "discount": "2,000 free launch credits (expire 9 Nov)",
-      "minSpend": "None",
-      "expiry": "2026-11-09",
-      "codes": [],
-      "claim": "Sign up free at synthesia.io and open Syren from the left menu.",
-      "claim_th": "สมัครฟรีที่ synthesia.io แล้วเปิด Syren จากเมนูด้านซ้าย",
-      "why": "Useful for explainers and marketing videos. Launch credits expire 9 Nov — try a short video soon.",
-      "source": "https://www.synthesia.io/post/syren-studio",
-      "title_th": "Synthesia Syren: สร้างวิดีโอ AI จากพรอมต์ (เบต้าฟรี)",
-      "discount_th": "เครดิตเปิดตัวฟรี 2,000 (หมดอายุ 9 พ.ย.)",
-      "minSpend_th": "ไม่มี",
-      "why_th": "เหมาะกับวิดีโออธิบายและการตลาด เครดิตเปิดตัวหมดอายุ 9 พ.ย. — ลองทำคลิปสั้นเร็วๆ"
+     "code": "FLYTODOM",
+     "label": "Thai Airways, Thai AirAsia, Thai Lion Air, Bangkok Airways, VietJet, Nok Air, Ezy",
+     "label_th": "การบินไทย ไทยแอร์เอเชีย ไทยไลอ้อนแอร์ บางกอกแอร์เวย์ส ไทยเวียตเจ็ท นกแอร์ อีซี่"
     }
-  ]
+   ],
+   "why": "NEW (TAT campaign, started 15 Oct). Book by 15 Dec, fly 15 Oct 2026–15 Jan 2027 on the airline's own site/app. Book outbound and return separately to get ฿500 twice. Thai nationals; limited seats, first come first served.",
+   "why_th": "ใหม่ (แคมเปญ ททท. เริ่ม 15 ต.ค.) จองถึง 15 ธ.ค. เดินทาง 15 ต.ค. 2569–15 ม.ค. 2570 ผ่านเว็บ/แอปของสายการบิน จองขาไปและขากลับแยกกันเพื่อรับส่วนลด 2 ครั้ง เฉพาะคนไทย สิทธิ์จำกัด ใครจองก่อนได้ก่อน",
+   "source": "https://thai.tourismthailand.org/Articles/flytodom",
+   "rank": 1
+  },
+  {
+   "brand": "LINE MAN",
+   "category": "Card Perks",
+   "title": "LINE MAN x SCB Debit Mastercard",
+   "title_th": "LINE MAN x บัตรเดบิต SCB มาสเตอร์การ์ด",
+   "discount": "฿60 off food",
+   "discount_th": "ลด ฿60 ค่าอาหาร",
+   "minSpend": "฿300",
+   "minSpend_th": "฿300",
+   "expiry": "2027-03-31",
+   "codes": [
+    {
+     "code": "SCBDB60",
+     "label": "2x per month, pay with SCB debit Mastercard",
+     "label_th": "2 ครั้ง/เดือน จ่ายด้วยบัตรเดบิต SCB มาสเตอร์การ์ด"
+    }
+   ],
+   "why": "NEW to the list. Uses a debit card, so it's a separate quota from the CardX credit-card codes — stack both in the same month.",
+   "why_th": "ใหม่ในลิสต์ ใช้บัตรเดบิต จึงเป็นสิทธิ์แยกจากโค้ดบัตรเครดิต CardX — ใช้ได้ทั้งสองแบบในเดือนเดียวกัน",
+   "source": "https://www.scb.co.th/th/personal-banking/promotions/debit-cards/lets-lineman",
+   "rank": 2
+  },
+  {
+   "brand": "MK",
+   "category": "Card Perks",
+   "title": "MK Restaurants: 50% POINTX back",
+   "title_th": "MK Restaurants คืนพอยท์ POINTX 50%",
+   "discount": "50% back in POINTX",
+   "discount_th": "คืนพอยท์ 50%",
+   "minSpend": "None",
+   "minSpend_th": "ไม่มี",
+   "expiry": "2026-12-31",
+   "codes": [],
+   "claim": "At any MK branch, scan the PromptPay QR in SCB Easy and pay with POINTX points (full or partial).",
+   "claim_th": "ที่ MK ทุกสาขา สแกน QR พร้อมเพย์ในแอป SCB Easy แล้วจ่ายด้วยคะแนน POINTX (เต็มจำนวนหรือบางส่วน)",
+   "why": "NEW. Needs an SCB account + POINTX. Cap 3,000 POINTX/week; bonus points land on Fridays and last 15 days. Stacks with MK member codes per MK's terms.",
+   "why_th": "ใหม่ ต้องมีบัญชี SCB + POINTX สูงสุด 3,000 พอยท์/สัปดาห์ พอยท์พิเศษเข้าทุกวันศุกร์ อายุ 15 วัน",
+   "source": "https://pointx.com/mk_oct26-dec26/",
+   "rank": 3
+  },
+  {
+   "brand": "SAii Laguna Phuket",
+   "category": "Travel",
+   "title": "SAii Laguna Phuket Thailand-resident rate",
+   "title_th": "SAii Laguna Phuket ราคาพิเศษผู้พำนักในไทย",
+   "discount": "25% off room + 25% off spa and F&B",
+   "discount_th": "ลด 25% ห้องพัก + ลด 25% สปาและอาหาร",
+   "minSpend": "2 nights (from ฿4,200)",
+   "minSpend_th": "ขั้นต่ำ 2 คืน (เริ่ม ฿4,200)",
+   "expiry": null,
+   "codes": [
+    {
+     "code": "THAIRESIDENT",
+     "label": "Book direct, 7+ days ahead",
+     "label_th": "จองตรงกับโรงแรม ล่วงหน้า 7 วันขึ้นไป"
+    }
+   ],
+   "why": "NEW Phuket pick (Bang Tao). Show Thai ID/work permit at check-in; Lagoon View rooms; free cancel up to 72h. No end date listed.",
+   "why_th": "ดีลภูเก็ตใหม่ (บางเทา) แสดงบัตรประชาชน/ใบอนุญาตทำงานตอนเช็กอิน ห้อง Lagoon View ยกเลิกฟรีก่อน 72 ชม. ไม่ระบุวันหมดเขต",
+   "source": "https://www.saiihotels.com/laguna-phuket/offers/thailand-residents-rate/",
+   "rank": 4
+  },
+  {
+   "rank": 5,
+   "brand": "Grab",
+   "category": "Food",
+   "title": "GrabFood Hot Deals (ends soon)",
+   "discount": "5% off (max ฿50) now + 4 follow-up 10% coupons (max ฿50 each)",
+   "minSpend": "฿200 (follow-ups ฿250)",
+   "expiry": "2026-10-24",
+   "codes": [
+    {
+     "code": "HOT",
+     "label": "1x per day, Bangkok area",
+     "label_th": "วันละ 1 ครั้ง เขตกรุงเทพฯ และปริมณฑล"
+    }
+   ],
+   "why": "Repeat because it ends soon (24 Oct) and is still the best everyday GrabFood code.",
+   "source": "https://www.grab.com/th/en/blog/grabfood-hotdeals/",
+   "title_th": "โค้ด GrabFood Hot Deals (ใกล้หมด)",
+   "discount_th": "ลด 5% (สูงสุด ฿50) + คูปองลด 10% อีก 4 ใบ (สูงสุดใบละ ฿50)",
+   "minSpend_th": "฿200 (คูปองถัดไป ฿250)",
+   "why_th": "ซ้ำเพราะใกล้หมดเขต (24 ต.ค.) และยังเป็นโค้ด GrabFood ใช้ทุกวันที่คุ้มที่สุด"
+  },
+  {
+   "brand": "Grab",
+   "category": "Card Perks",
+   "title": "GrabFood x SCB PLANET card",
+   "title_th": "GrabFood x บัตร SCB PLANET",
+   "discount": "฿60 off",
+   "discount_th": "ลด ฿60",
+   "minSpend": "฿300",
+   "minSpend_th": "฿300",
+   "expiry": "2027-03-31",
+   "codes": [
+    {
+     "code": "SCBPNFOOD",
+     "label": "2x per month, Partner restaurants",
+     "label_th": "2 ครั้ง/เดือน เฉพาะร้าน Partner"
+    }
+   ],
+   "why": "NEW to the list. Needs an SCB PLANET card saved in Grab; separate from CardX/HOT codes.",
+   "why_th": "ใหม่ในลิสต์ ต้องผูกบัตร SCB PLANET ในแอป Grab แยกสิทธิ์จากโค้ด CardX/HOT",
+   "source": "https://www.scb.co.th/th/personal-banking/promotions/prepaid-card/planet-grabfood",
+   "rank": 6
+  },
+  {
+   "rank": 7,
+   "brand": "Airalo",
+   "category": "Travel",
+   "title": "Airalo Japan eSIM code",
+   "discount": "15% off any eSIM, max $5",
+   "minSpend": "None",
+   "expiry": "2030-02-05",
+   "codes": [
+    {
+     "code": "VISITJAPAN15",
+     "label": "1 redemption per account",
+     "label_th": "ใช้ได้ 1 ครั้งต่อบัญชี"
+    }
+   ],
+   "why": "Repeat: still the easiest Japan eSIM saving; keep for upcoming Japan trips.",
+   "source": "https://www.airalo.com/campaign/visitjapan15",
+   "title_th": "โค้ด eSIM ญี่ปุ่น Airalo",
+   "discount_th": "ลด 15% ทุก eSIM สูงสุด $5",
+   "minSpend_th": "ไม่มี",
+   "why_th": "ซ้ำ: ยังเป็นส่วนลด eSIM ญี่ปุ่นที่ง่ายที่สุด เก็บไว้ใช้ทริปญี่ปุ่น"
+  },
+  {
+   "rank": 8,
+   "brand": "AiPASS",
+   "category": "AI Tools",
+   "title": "AiPASS 2.0: free Gemini Enterprise",
+   "discount": "Free up to 10 months",
+   "minSpend": "1,000 learning points on AiPASS",
+   "expiry": "2026-11-02",
+   "codes": [],
+   "claim": "Earn 1,000 points on aipass.go.th, then claim Gemini Enterprise before 2 Nov.",
+   "claim_th": "สะสม 1,000 คะแนนที่ aipass.go.th แล้วกดรับ Gemini Enterprise ก่อน 2 พ.ย.",
+   "why": "Repeat because the claim window closes 2 Nov. 500,000 seats; access starts 9 Nov.",
+   "source": "https://aipass.go.th/",
+   "title_th": "AiPASS 2.0: ฟรี Gemini Enterprise",
+   "discount_th": "ฟรีสูงสุด 10 เดือน",
+   "minSpend_th": "สะสมคะแนนเรียน 1,000 คะแนนบน AiPASS",
+   "why_th": "ซ้ำเพราะปิดรับสิทธิ์ 2 พ.ย. จำกัด 500,000 สิทธิ์ เริ่มใช้ 9 พ.ย."
+  },
+  {
+   "brand": "Cascade",
+   "category": "AI Tools",
+   "title": "Cascade AI video studio: 3,500 free credits",
+   "title_th": "Cascade สตูดิโอวิดีโอ AI: เครดิตฟรี 3,500",
+   "discount": "3,500 free credits for new accounts",
+   "discount_th": "เครดิตฟรี 3,500 สำหรับบัญชีใหม่",
+   "minSpend": "None",
+   "minSpend_th": "ไม่มี",
+   "expiry": null,
+   "codes": [],
+   "claim": "Sign up at cascadestudio.ai — credits are added to new accounts.",
+   "claim_th": "สมัครที่ cascadestudio.ai — บัญชีใหม่ได้เครดิตอัตโนมัติ",
+   "why": "NEW (out of beta 8 Oct). Image/video/voice models in one place; AI agent, rendering and storage don't use credits. Good for quick marketing videos.",
+   "why_th": "ใหม่ (ออกจากเบต้า 8 ต.ค.) รวมโมเดลภาพ/วิดีโอ/เสียงในที่เดียว เอเจนต์ AI การเรนเดอร์และพื้นที่เก็บไม่กินเครดิต เหมาะทำวิดีโอการตลาดเร็ว ๆ",
+   "source": "https://cascadestudio.ai/post/out-of-beta",
+   "rank": 9
+  },
+  {
+   "rank": 10,
+   "brand": "LINE MAN",
+   "category": "Food",
+   "title": "LINE MAN x CardX food & Mart codes",
+   "discount": "฿50 off food / ฿50 off Mart",
+   "minSpend": "฿300 food / ฿400 Mart",
+   "expiry": "2026-10-31",
+   "codes": [
+    {
+     "code": "CARDXFOOD",
+     "label": "LINE MAN food, 2x per month",
+     "label_th": "ค่าอาหาร LINE MAN 2 ครั้ง/เดือน"
+    },
+    {
+     "code": "CARDXMART",
+     "label": "LINE MAN Mart, 2x per month",
+     "label_th": "LINE MAN Mart 2 ครั้ง/เดือน"
+    }
+   ],
+   "why": "Repeat: core CardX perk, ends 31 Oct — use remaining October quota. Separate from SCBDB60.",
+   "source": "https://lineman.line.me/partnership-cardx/",
+   "title_th": "โค้ด LINE MAN x CardX ค่าอาหารและ Mart",
+   "discount_th": "ลด ฿50 ค่าอาหาร / ลด ฿50 ค่าสินค้า Mart",
+   "minSpend_th": "ค่าอาหาร ฿300 / Mart ฿400",
+   "why_th": "ซ้ำ: สิทธิ์หลักของ CardX หมด 31 ต.ค. — ใช้สิทธิ์ที่เหลือของเดือนนี้ แยกจาก SCBDB60"
+  },
+  {
+   "brand": "Shopee",
+   "category": "Shopping",
+   "title": "Shopee x SCB Debit Mastercard",
+   "title_th": "Shopee x บัตรเดบิต SCB มาสเตอร์การ์ด",
+   "discount": "฿120 off",
+   "discount_th": "ลด ฿120",
+   "minSpend": "฿900",
+   "minSpend_th": "฿900",
+   "expiry": "2027-03-31",
+   "codes": [],
+   "claim": "Code changes monthly: open shopee.co.th/m/scb-debit-promotion in the Shopee app, enter that month's code and pay with SCB debit Mastercard. 1x per month.",
+   "claim_th": "โค้ดเปลี่ยนทุกเดือน: เปิด shopee.co.th/m/scb-debit-promotion ในแอป Shopee ใส่โค้ดของเดือนนั้นแล้วจ่ายด้วยบัตรเดบิต SCB มาสเตอร์การ์ด 1 ครั้ง/เดือน",
+   "why": "NEW. Limited monthly quota (690); code is hidden once used up.",
+   "why_th": "ใหม่ สิทธิ์รายเดือนจำกัด (690) โค้ดจะซ่อนเมื่อสิทธิ์หมด",
+   "source": "https://www.scb.co.th/th/personal-banking/promotions/debit-cards/lets-promotion-shopee",
+   "rank": 11
+  },
+  {
+   "brand": "Lazada",
+   "category": "Shopping",
+   "title": "Lazada x SCB Debit Mastercard",
+   "title_th": "Lazada x บัตรเดบิต SCB มาสเตอร์การ์ด",
+   "discount": "฿120 off",
+   "discount_th": "ลด ฿120",
+   "minSpend": "฿900",
+   "minSpend_th": "฿900",
+   "expiry": "2027-03-31",
+   "codes": [],
+   "claim": "Find this month's code under the Partnership tab (lzd.co/THpartnership) in the Lazada app; pay with SCB debit Mastercard. 1x per month.",
+   "claim_th": "ดูโค้ดของเดือนในแถบพาร์ทเนอร์ชิพ (lzd.co/THpartnership) ในแอป Lazada จ่ายด้วยบัตรเดบิต SCB มาสเตอร์การ์ด 1 ครั้ง/เดือน",
+   "why": "NEW. Same deal as Shopee's, separate quota — use both each month.",
+   "why_th": "ใหม่ เหมือนดีล Shopee แต่สิทธิ์แยกกัน — ใช้ได้ทั้งสองทุกเดือน",
+   "source": "https://www.scb.co.th/th/personal-banking/promotions/debit-cards/lets-promotion-lazada",
+   "rank": 12
+  },
+  {
+   "brand": "The Pizza Company",
+   "category": "Restaurants",
+   "title": "The Pizza Company: 2 pizzas from ฿299",
+   "title_th": "The Pizza Company: พิซซ่า 2 ถาด เริ่ม ฿299",
+   "discount": "Buy 1 get 1 pizza",
+   "discount_th": "พิซซ่า 1 แถม 1",
+   "minSpend": "From ฿299 for 2 trays",
+   "minSpend_th": "เริ่ม ฿299 ได้ 2 ถาด",
+   "expiry": "2026-11-18",
+   "codes": [],
+   "claim": "Order the 1-free-1 set in the 1112 app/website or call 1112; free delivery on delivery orders.",
+   "claim_th": "สั่งชุด 1 แถม 1 ผ่านแอป/เว็บ 1112 หรือโทร 1112 ส่งฟรีเมื่อสั่งเดลิเวอรี",
+   "why": "NEW (Minor Food). Any topping, any crust; extras cost more. Good for a weekend share.",
+   "why_th": "ใหม่ (ไมเนอร์ ฟู้ด) เลือกได้ทุกหน้า ทุกขอบ เพิ่มท็อปปิ้งมีค่าใช้จ่ายเพิ่ม เหมาะแชร์วันหยุด",
+   "source": "https://108deal.com/roundup-20261011-3/",
+   "rank": 13
+  },
+  {
+   "brand": "MK",
+   "category": "Restaurants",
+   "title": "MK takeaway rice box ฿69",
+   "title_th": "MK ข้าวกล่องชูใจ ฿69 (ซื้อกลับบ้าน)",
+   "discount": "฿69 per box",
+   "discount_th": "กล่องละ ฿69",
+   "minSpend": "Max 2 boxes per receipt",
+   "minSpend_th": "จำกัด 2 กล่อง/ใบเสร็จ",
+   "expiry": "2026-10-31",
+   "codes": [],
+   "claim": "Takeaway only at MK branches: red-pork rice or jade noodles with red pork.",
+   "claim_th": "เฉพาะซื้อกลับบ้านที่ MK: ข้าวหมูแดง หรือบะหมี่หยกหมูแดง",
+   "why": "NEW. Cheap weekday lunch; can't combine with member discounts.",
+   "why_th": "ใหม่ มื้อกลางวันราคาประหยัด ใช้ร่วมส่วนลดสมาชิกไม่ได้",
+   "source": "https://www.mkrestaurant.com/th/promotion/detail/mk-%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%81%E0%B8%A5%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%8A%E0%B8%B9%E0%B9%83%E0%B8%88",
+   "rank": 14
+  },
+  {
+   "brand": "Swensen's",
+   "category": "Restaurants",
+   "title": "Swensen's 40th anniversary app deals",
+   "title_th": "สเวนเซ่นส์ฉลอง 40 ปี ดีลในแอป",
+   "discount": "฿40 off Magical Moment Sundae (฿159) + weekly app deals",
+   "discount_th": "ลด ฿40 Magical Moment Sundae (เหลือ ฿159) + ดีลรายสัปดาห์ในแอป",
+   "minSpend": "Varies by weekly deal",
+   "minSpend_th": "ขึ้นกับดีลแต่ละสัปดาห์",
+   "expiry": "2026-11-08",
+   "codes": [],
+   "claim": "Collect the coupons in the Swensen's app; deals rotate weekly (12–18 Oct, 19–25 Oct, 26 Oct–1 Nov, 2–4 Nov).",
+   "claim_th": "เก็บคูปองในแอปสเวนเซ่นส์ ดีลเปลี่ยนทุกสัปดาห์ (12–18 ต.ค., 19–25 ต.ค., 26 ต.ค.–1 พ.ย., 2–4 พ.ย.)",
+   "why": "NEW (Minor Food). Which deal runs in which week is from a deal-roundup site — check the app.",
+   "why_th": "ใหม่ (ไมเนอร์ ฟู้ด) ข้อมูลว่าดีลไหนอยู่สัปดาห์ไหนมาจากเว็บรวมโปร — ตรวจสอบในแอปอีกครั้ง",
+   "source": "https://108deal.com/weloveswensens-1425597219756764/",
+   "rank": 15
+  },
+  {
+   "brand": "Grab",
+   "category": "Food",
+   "title": "GrabCare code (NE Bangkok districts)",
+   "title_th": "โค้ด GrabCare (เขตกรุงเทพฯ ฝั่งตะวันออกเฉียงเหนือ)",
+   "discount": "GrabFood 30% (max ฿50) / GrabMart 15% (max ฿100) / GrabCar 20% (max ฿100)",
+   "discount_th": "GrabFood ลด 30% (สูงสุด ฿50) / GrabMart ลด 15% (สูงสุด ฿100) / GrabCar ลด 20% (สูงสุด ฿100)",
+   "minSpend": "Food ฿150 / Mart ฿500 / Car none",
+   "minSpend_th": "อาหาร ฿150 / Mart ฿500 / รถไม่มีขั้นต่ำ",
+   "expiry": "2026-10-24",
+   "codes": [
+    {
+     "code": "GRABCARE",
+     "label": "Lak Si, Lat Phrao, Bang Khen, Bang Kapi, Wang Thonglang, Bueng Kum only",
+     "label_th": "เฉพาะเขตหลักสี่ ลาดพร้าว บางเขน บางกะปิ วังทองหลาง บึงกุ่ม"
+    }
+   ],
+   "why": "NEW. Only for selected users in those districts; food code up to 10 uses. Try it if you're in the area.",
+   "why_th": "ใหม่ เฉพาะผู้ใช้ที่กำหนดในเขตดังกล่าว โค้ดอาหารใช้ได้สูงสุด 10 ครั้ง ลองใช้ถ้าอยู่ในพื้นที่",
+   "source": "https://www.grab.com/th/food-blog/promotions/grabcare/",
+   "rank": 16
+  },
+  {
+   "rank": 17,
+   "brand": "Grab",
+   "category": "Rides",
+   "title": "GrabCar & GrabBike x CardX",
+   "discount": "฿30 off GrabCar / ฿5 off GrabBike",
+   "minSpend": "฿150 car / ฿30 bike",
+   "expiry": "2026-10-31",
+   "codes": [
+    {
+     "code": "CARDXCAR",
+     "label": "GrabCar, 2x per month",
+     "label_th": "GrabCar 2 ครั้ง/เดือน"
+    },
+    {
+     "code": "CARDXBIKE",
+     "label": "GrabBike, 3x per month",
+     "label_th": "GrabBike 3 ครั้ง/เดือน"
+    }
+   ],
+   "why": "Repeat: only rides code for CardX/SCB credit cards; ends 31 Oct.",
+   "source": "https://www.grab.com/th/en/blog/cardx_may-july_2026/",
+   "title_th": "GrabCar และ GrabBike x CardX",
+   "discount_th": "ลด ฿30 GrabCar / ลด ฿5 GrabBike",
+   "minSpend_th": "รถยนต์ ฿150 / มอเตอร์ไซค์ ฿30",
+   "why_th": "ซ้ำ: โค้ดเรียกรถเดียวสำหรับบัตรเครดิต CardX/SCB หมด 31 ต.ค."
+  },
+  {
+   "rank": 18,
+   "brand": "Agoda",
+   "category": "Travel",
+   "title": "Agoda x CardX hotel discount",
+   "discount": "20% off room rate, max ฿1,000",
+   "minSpend": "฿5,000 per booking",
+   "expiry": "2026-10-31",
+   "codes": [],
+   "claim": "Book only via agoda.com/cardx, pay in THB full amount with a CardX or SCB credit card. Look for Promotion Eligible hotels.",
+   "claim_th": "จองเฉพาะผ่าน agoda.com/cardx ชำระเต็มจำนวนเป็นบาทด้วยบัตรเครดิต CardX หรือ SCB เลือกโรงแรมที่มีป้าย Promotion Eligible",
+   "why": "Repeat: book by 31 Oct, stay by 31 Mar 2027. Worth checking if you have a pay-later booking you could rebook through agoda.com/cardx. 300 seats campaign-wide; 1x per card per month.",
+   "source": "https://www.agoda.com/cardx",
+   "title_th": "Agoda x CardX ส่วนลดโรงแรม",
+   "discount_th": "ลด 20% ค่าห้อง สูงสุด ฿1,000",
+   "minSpend_th": "฿5,000 ต่อรายการ",
+   "why_th": "ซ้ำ: จองภายใน 31 ต.ค. เข้าพักถึง 31 มี.ค. 2570 ถ้ามีการจองแบบจ่ายทีหลังที่ยกเลิกฟรีได้ ลองจองใหม่ผ่าน agoda.com/cardx จำกัด 300 สิทธิ์ทั้งแคมเปญ 1 ครั้ง/บัตร/เดือน"
+  },
+  {
+   "rank": 19,
+   "brand": "Big C",
+   "category": "Supermarkets",
+   "title": "Big C Online household & office items",
+   "discount": "฿60 / ฿90 / ฿150 off",
+   "minSpend": "฿600 / ฿1,500 / ฿3,000",
+   "expiry": "2026-10-31",
+   "codes": [
+    {
+     "code": "HOL60",
+     "label": "฿60 off ฿600",
+     "label_th": "ลด ฿60 เมื่อครบ ฿600"
+    },
+    {
+     "code": "HOL90",
+     "label": "฿90 off ฿1,500",
+     "label_th": "ลด ฿90 เมื่อครบ ฿1,500"
+    },
+    {
+     "code": "HOL150",
+     "label": "฿150 off ฿3,000",
+     "label_th": "ลด ฿150 เมื่อครบ ฿3,000"
+    }
+   ],
+   "why": "Repeat: still the best typeable supermarket code found; ends 31 Oct.",
+   "source": "https://www.bigc.co.th/p/terms-coupon-hol-disc-20261001",
+   "title_th": "Big C Online ของใช้ในบ้านและสำนักงาน",
+   "discount_th": "ลด ฿60 / ฿90 / ฿150",
+   "minSpend_th": "฿600 / ฿1,500 / ฿3,000",
+   "why_th": "ซ้ำ: ยังเป็นโค้ดซูเปอร์มาร์เก็ตที่ดีที่สุดที่หาได้ หมด 31 ต.ค."
+  },
+  {
+   "brand": "Vercel",
+   "category": "AI Tools",
+   "title": "NVIDIA Nemotron 3.5 Lightning free on Vercel AI Gateway",
+   "title_th": "NVIDIA Nemotron 3.5 Lightning ใช้ฟรีบน Vercel AI Gateway",
+   "discount": "Free model (1M context, tool calling)",
+   "discount_th": "โมเดลฟรี (คอนเท็กซ์ 1M รองรับ tool calling)",
+   "minSpend": "None",
+   "minSpend_th": "ไม่มี",
+   "expiry": null,
+   "codes": [],
+   "claim": "Use model id nvidia/nemotron-3.5-lightning-free via AI Gateway (npx vercel ai-gateway setup).",
+   "claim_th": "ใช้ model id nvidia/nemotron-3.5-lightning-free ผ่าน AI Gateway (npx vercel ai-gateway setup)",
+   "why": "NEW (14 Oct). Good free model for agents/RAG tests. Provider may keep prompts — use non-sensitive data.",
+   "why_th": "ใหม่ (14 ต.ค.) โมเดลฟรีเหมาะทดสอบเอเจนต์/RAG ผู้ให้บริการอาจเก็บพรอมต์ — ใช้กับข้อมูลที่ไม่อ่อนไหว",
+   "source": "https://vercel.com/changelog/nemotron-3-5-lightning-now-available-on-ai-gateway-for-free",
+   "rank": 20
+  },
+  {
+   "brand": "OpenCode",
+   "category": "AI Tools",
+   "title": "OpenCode: Cat Jam Free coding model",
+   "title_th": "OpenCode: โมเดลเขียนโค้ด Cat Jam Free",
+   "discount": "Free for a limited time ($0 on Zen; no Go quota used)",
+   "discount_th": "ฟรีช่วงจำกัด ($0 บน Zen ไม่กินโควตา Go)",
+   "minSpend": "None",
+   "minSpend_th": "ไม่มี",
+   "expiry": null,
+   "codes": [],
+   "claim": "Select opencode/cat-jam-free in OpenCode (Zen or Go).",
+   "claim_th": "เลือก opencode/cat-jam-free ใน OpenCode (Zen หรือ Go)",
+   "why": "NEW. 262K-context reasoning model for agentic coding; no end date announced. Data kept 30 days per docs.",
+   "why_th": "ใหม่ โมเดลเหตุผลคอนเท็กซ์ 262K สำหรับเขียนโค้ดแบบเอเจนต์ ยังไม่ประกาศวันสิ้นสุด เอกสารระบุเก็บข้อมูล 30 วัน",
+   "source": "https://promptblueprints.tech/ai-releases/cat-jam-free-is-free-on-opencode-no-end-date-announced/",
+   "rank": 21
+  }
+ ]
 }
