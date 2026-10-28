@@ -1,342 +1,368 @@
 {
- "date": "2026-10-27",
- "deals": [
-  {
-   "rank": 1,
-   "brand": "LINE MAN",
-   "category": "Rides",
-   "title": "LINE MAN Ride Eco: 30% off up to ฿50",
-   "title_th": "LINE MAN Ride Eco: ลด 30% สูงสุด ฿50",
-   "discount": "30% off, max ฿50",
-   "discount_th": "ลด 30% สูงสุด ฿50",
-   "minSpend": "None",
-   "minSpend_th": "ไม่มีขั้นต่ำ",
-   "expiry": "2026-10-31",
-   "codes": [
+  "date": "2026-10-28",
+  "deals": [
     {
-     "code": "HOLIDAY",
-     "label": "Ride (Eco), no minimum",
-     "label_th": "เรียกรถ Eco ไม่มีขั้นต่ำ"
+      "rank": 1,
+      "brand": "LINE MAN",
+      "category": "Food",
+      "title": "LINE MAN Group Order: 15% off up to ฿100",
+      "title_th": "LINE MAN สั่งแบบกลุ่ม (Group Order): ลด 15% สูงสุด ฿100",
+      "discount": "15% off, max ฿100",
+      "discount_th": "ลด 15% สูงสุด ฿100",
+      "minSpend": "฿300",
+      "minSpend_th": "฿300",
+      "expiry": "2026-11-30",
+      "codes": [
+        {
+          "code": "LMGROUP",
+          "label": "First Group Order only, once per user",
+          "label_th": "เฉพาะการสั่ง Group Order ครั้งแรก ใช้ได้ 1 ครั้ง/ผู้ใช้"
+        }
+      ],
+      "why": "Official Grand Sale code for office or family lunch orders; split one order and still get the discount.",
+      "why_th": "โค้ดทางการช่วง Grand Sale เหมาะสั่งข้าวกลางวันกับเพื่อนที่ทำงานหรือครอบครัว รวมออเดอร์เดียวแล้วได้ส่วนลด",
+      "source": "https://lmwn.com/lineman/lm-tooksud/"
     },
     {
-     "code": "BACKHOME",
-     "label": "Same deal, try if HOLIDAY quota is gone",
-     "label_th": "ส่วนลดเท่ากัน ลองใช้ถ้า HOLIDAY หมดสิทธิ์"
-    }
-   ],
-   "why": "Fresh ride codes for short city trips; listed by a code tracker, so check the discount shows in the app before booking.",
-   "why_th": "โค้ดเรียกรถใหม่ เหมาะกับทริปสั้นในเมือง มาจากเว็บรวมโค้ด ควรเช็กว่าส่วนลดขึ้นในแอปก่อนกดเรียก",
-   "source": "https://hiwkojadpro.com/code-lineman-today/"
-  },
-  {
-   "rank": 2,
-   "brand": "Starbucks",
-   "category": "Restaurants",
-   "title": "Starbucks: Buy 1 Get 1 on 10 featured drinks",
-   "title_th": "สตาร์บัคส์ ซื้อ 1 ฟรี 1 เครื่องดื่มที่ร่วมรายการ 10 เมนู",
-   "discount": "Buy 1 get 1 free (max 2 free per person)",
-   "discount_th": "ซื้อ 1 ฟรี 1 (ฟรีสูงสุด 2 แก้ว/ท่าน)",
-   "minSpend": "1 featured drink",
-   "minSpend_th": "ซื้อเครื่องดื่มที่ร่วมรายการ 1 แก้ว",
-   "expiry": "2026-11-02",
-   "codes": [],
-   "claim": "Order a featured Roasted Macadamia or Shine Muscat drink in-store, Drive Thru, Starbucks app, GrabFood or LINE MAN (Grande in app/delivery); the free cup is added automatically.",
-   "claim_th": "สั่งเมนูโรสต์เท็ด แมคคาเดเมีย หรือไชน์ มัสแคท ที่ร่วมรายการ ที่ร้าน, Drive Thru, แอป Starbucks, GrabFood หรือ LINE MAN (ขนาด Grande ในแอป/เดลิเวอรี) แก้วฟรีเพิ่มให้อัตโนมัติ",
-   "why": "Half-price coffee at participating branches; not on ShopeeFood.",
-   "why_th": "กาแฟเฉลี่ยครึ่งราคาที่สาขาร่วมรายการ ไม่รวม ShopeeFood",
-   "source": "https://www.maneedee.com/promotion/starbucks/"
-  },
-  {
-   "rank": 3,
-   "brand": "MK",
-   "category": "Card Perks",
-   "title": "MK Restaurants: 50% POINTX points back",
-   "title_th": "MK Restaurants: รับพอยท์คืน 50% เมื่อจ่ายด้วย POINTX",
-   "discount": "50% back in POINTX (max 3,000 POINTX/week)",
-   "discount_th": "รับพอยท์คืน 50% (สูงสุด 3,000 POINTX/สัปดาห์)",
-   "minSpend": "None",
-   "minSpend_th": "ไม่มีขั้นต่ำ",
-   "expiry": "2026-12-31",
-   "codes": [],
-   "claim": "Scan to pay at any MK branch in the SCB EASY app and choose 'use with POINTX' (all points, or points + SCB account). Bonus points expire 15 days after you get them.",
-   "claim_th": "สแกนจ่ายที่ MK ทุกสาขาผ่านแอป SCB EASY แล้วเลือก 'ใช้คู่กับพอยท์ของ POINTX' (ใช้พอยท์ทั้งหมด หรือพอยท์+เงินในบัญชี SCB) พอยท์พิเศษมีอายุ 15 วัน",
-   "why": "Good for CardX/SCB users who already earn POINTX; effectively halves MK meals paid with points.",
-   "why_th": "คุ้มสำหรับคนที่สะสม POINTX จากบัตร CardX/SCB อยู่แล้ว ได้พอยท์คืนครึ่งหนึ่ง",
-   "source": "https://www.mkrestaurant.com/th/promotion/detail/point-back-50-%E0%B9%80%E0%B8%89%E0%B8%9E%E0%B8%B2%E0%B8%B0%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%84%E0%B9%89%E0%B8%B2-pointx"
-  },
-  {
-   "rank": 4,
-   "brand": "Lotus's",
-   "category": "Supermarkets",
-   "title": "Lotus's on LINE MAN MART: Friday 15% off",
-   "title_th": "Lotus's บน LINE MAN MART: วันศุกร์ลด 15%",
-   "discount": "15% off, max ฿300",
-   "discount_th": "ลด 15% สูงสุด ฿300",
-   "minSpend": "฿1,500",
-   "minSpend_th": "ขั้นต่ำ ฿1,500",
-   "expiry": "2026-10-30",
-   "codes": [
-    {
-     "code": "LOTUSFRI",
-     "label": "Friday 30 Oct only",
-     "label_th": "ใช้ได้เฉพาะวันศุกร์ 30 ต.ค."
-    }
-   ],
-   "why": "Biggest Lotus's code for a month-end stock-up; one day only. Listed by a code tracker, check in app.",
-   "why_th": "โค้ด Lotus's ที่ลดเยอะสุด เหมาะตุนของสิ้นเดือน ใช้ได้วันเดียว มาจากเว็บรวมโค้ด ควรเช็กในแอป",
-   "source": "https://hiwkojadpro.com/code-lineman-today/"
-  },
-  {
-   "rank": 5,
-   "brand": "The Pizza Company",
-   "category": "Restaurants",
-   "title": "The Pizza Company BiTE: Buy 1 Get 1 from ฿129",
-   "title_th": "เดอะ พิซซ่า คอมปะนี BiTE 1 แถม 1 เริ่ม ฿129",
-   "discount": "2 BiTE boxes for ฿129 or ฿149",
-   "discount_th": "BiTE 2 กล่อง ราคา ฿129 หรือ ฿149",
-   "minSpend": "None (free delivery from ฿499)",
-   "minSpend_th": "ไม่มีขั้นต่ำ (ส่งฟรีเมื่อครบ ฿499)",
-   "expiry": "2026-10-31",
-   "codes": [],
-   "claim": "Order BiTE via 1112 call, 1112.com or The Pizza Company 1112 app (delivery or takeaway), participating branches.",
-   "claim_th": "สั่ง BiTE ผ่านโทร 1112, เว็บ 1112.com หรือแอป The Pizza Company 1112 (เดลิเวอรีหรือซื้อกลับบ้าน) เฉพาะสาขาที่ร่วมรายการ",
-   "why": "Cheap quick meal (about ฿65 a box); whole-pizza buy-1-get-1 for delivery also runs to 8 Nov.",
-   "why_th": "มื้อด่วนราคาประหยัด ตกกล่องละราว ฿65 และยังมีพิซซ่า 1 แถม 1 ทุกหน้าสำหรับเดลิเวอรีถึง 8 พ.ย.",
-   "source": "https://www.maneedee.com/promotion/the-pizza-company/"
-  },
-  {
-   "rank": 6,
-   "brand": "Inception",
-   "category": "AI Tools",
-   "title": "Inception Mercury 3: 100M free API tokens",
-   "title_th": "Inception Mercury 3: รับฟรี 100 ล้านโทเคน API",
-   "discount": "100 million free tokens (one-time)",
-   "discount_th": "ฟรี 100 ล้านโทเคน (ครั้งเดียว)",
-   "minSpend": "None, no card needed",
-   "minSpend_th": "ไม่มีขั้นต่ำ ไม่ต้องใส่บัตร",
-   "expiry": null,
-   "codes": [],
-   "claim": "Sign up at platform.inceptionlabs.ai and create an API key; credit is shared across all models and works with OpenAI-compatible clients.",
-   "claim_th": "สมัครที่ platform.inceptionlabs.ai แล้วสร้าง API key เครดิตใช้ร่วมกันทุกโมเดล ใช้กับไคลเอนต์ที่รองรับ OpenAI API ได้",
-   "why": "Very fast new diffusion LLM (launched 19 Oct); lots of free tokens for building and testing agents.",
-   "why_th": "โมเดล LLM แบบ diffusion ตัวใหม่ที่เร็วมาก (เปิดตัว 19 ต.ค.) ได้โทเคนฟรีเยอะไว้ลองทำเอเจนต์",
-   "source": "https://docs.inceptionlabs.ai/resources/faq"
-  },
-  {
-   "rank": 7,
-   "brand": "Klook",
-   "category": "Travel",
-   "title": "Klook with Mastercard World and above: up to 10% off",
-   "title_th": "Klook กับบัตร Mastercard World ขึ้นไป: ลดสูงสุด 10%",
-   "discount": "10% off up to US$35 / 5% off up to US$12",
-   "discount_th": "ลด 10% สูงสุด US$35 / ลด 5% สูงสุด US$12",
-   "minSpend": "US$350 / US$250",
-   "minSpend_th": "ขั้นต่ำ US$350 / US$250",
-   "expiry": "2026-12-31",
-   "codes": [
-    {
-     "code": "MCWORLD10OFF",
-     "label": "Min US$350, max US$35 off",
-     "label_th": "ขั้นต่ำ US$350 ลดสูงสุด US$35"
+      "rank": 2,
+      "brand": "Agoda",
+      "category": "Travel",
+      "title": "Agoda x CardX/SCB: 20% off hotels up to ฿1,000",
+      "title_th": "Agoda x CardX/SCB: ลดค่าห้อง 20% สูงสุด ฿1,000",
+      "discount": "20% off room rate, max ฿1,000",
+      "discount_th": "ลด 20% สูงสุด ฿1,000",
+      "minSpend": "฿5,000 per booking (full payment in THB)",
+      "minSpend_th": "฿5,000 ต่อรายการ (ชำระเต็มจำนวนเป็นเงินบาท)",
+      "expiry": "2026-10-31",
+      "codes": [],
+      "claim": "No code: book via agoda.com/cardx and pay in full with a CardX or SCB credit card.",
+      "claim_th": "ไม่ต้องใช้โค้ด: จองผ่าน agoda.com/cardx แล้วชำระเต็มจำนวนด้วยบัตรเครดิต CardX หรือ SCB",
+      "why": "Repeat, ends 31 Oct: good for a domestic beach trip (stays until 31 Mar 2027); only 'Promotion Eligible' properties, 300 redemptions total, 1 per card per month.",
+      "why_th": "ซ้ำ หมด 31 ต.ค.: เหมาะจองโรงแรมเที่ยวในประเทศ (เข้าพักได้ถึง 31 มี.ค. 2570) เฉพาะที่พักที่ร่วมรายการ จำกัด 300 สิทธิ์ 1 สิทธิ์/บัตร/เดือน",
+      "source": "https://www.chaimiles.com/promotion/agoda-cardx-discount"
     },
     {
-     "code": "MCWORLD5OFF",
-     "label": "Min US$250, max US$12 off",
-     "label_th": "ขั้นต่ำ US$250 ลดสูงสุด US$12"
-    }
-   ],
-   "why": "Needs a Thai-issued Mastercard World / World Elite / World Legend; up to 3 uses, quota refills on the 1st of each month. Details from a travel-code guide, check on Klook.",
-   "why_th": "ต้องใช้บัตร Mastercard World / World Elite / World Legend ที่ออกในไทย ใช้ได้สูงสุด 3 ครั้ง โควตาเติมทุกวันที่ 1 ข้อมูลจากเว็บรวมโค้ดท่องเที่ยว ควรเช็กใน Klook",
-   "source": "https://todolist-japan.com/th/japan-travel-promo-codes-2026-11-3/"
-  },
-  {
-   "rank": 8,
-   "brand": "CardX",
-   "category": "Card Perks",
-   "title": "CardX at Power Buy Mega Expo: 0% installments + cashback",
-   "title_th": "CardX ที่ Power Buy Mega Expo: ผ่อน 0% + เครดิตเงินคืน",
-   "discount": "0% up to 10 months + up to 15% off; cashback from ฿220",
-   "discount_th": "ผ่อน 0% นานสูงสุด 10 เดือน + ลดสูงสุด 15% รับเงินคืนเริ่ม ฿220",
-   "minSpend": "฿10,000 installment for cashback",
-   "minSpend_th": "ยอดผ่อน ฿10,000 ขึ้นไปเพื่อรับเงินคืน",
-   "expiry": "2026-11-01",
-   "codes": [],
-   "claim": "Register once by SMS (CE + last 12 card digits to 4545777), then pay with CardX / SCB WEALTH by CardX on 0% 4–10 month installments at Power Buy Mega Expo; cashback ฿220 (฿10,000+) up to ฿4,200 (฿120,000+).",
-   "claim_th": "ลงทะเบียนครั้งเดียวทาง SMS พิมพ์ CE เว้นวรรค เลขบัตร 12 หลักท้าย ส่ง 4545777 แล้วจ่ายด้วยบัตร CardX / SCB WEALTH by CardX แบบผ่อน 0% 4–10 เดือนที่ Power Buy Mega Expo รับเงินคืน ฿220 (ยอด ฿10,000+) ถึง ฿4,200 (ยอด ฿120,000+)",
-   "why": "Worth it only if you were already planning an appliance or gadget buy; ends this weekend.",
-   "why_th": "คุ้มถ้ามีแผนซื้อเครื่องใช้ไฟฟ้าหรือแก็ดเจ็ตอยู่แล้ว หมดเขตสุดสัปดาห์นี้",
-   "source": "https://www.cardx.co.th/th-TH/promotions/pwb-super-sale-oct26-ipc01"
-  },
-  {
-   "rank": 9,
-   "brand": "Betagro",
-   "category": "Supermarkets",
-   "title": "Betagro on LINE MAN MART: ฿200 off",
-   "title_th": "Betagro บน LINE MAN MART: ลด ฿200",
-   "discount": "฿200 off / ฿60 off",
-   "discount_th": "ลด ฿200 / ลด ฿60",
-   "minSpend": "฿999 / ฿499",
-   "minSpend_th": "ขั้นต่ำ ฿999 / ฿499",
-   "expiry": "2026-10-31",
-   "codes": [
-    {
-     "code": "BTG200",
-     "label": "฿200 off from ฿999",
-     "label_th": "ลด ฿200 เมื่อครบ ฿999"
+      "rank": 3,
+      "brand": "Grab",
+      "category": "Food",
+      "title": "GrabFood MEGA GALE: 15% off up to ฿75 with GrabPay Wallet",
+      "title_th": "GrabFood MEGA GALE: ลด 15% สูงสุด ฿75 เมื่อจ่ายด้วย GrabPay Wallet",
+      "discount": "15% off, max ฿75",
+      "discount_th": "ลด 15% สูงสุด ฿75",
+      "minSpend": "฿500",
+      "minSpend_th": "฿500",
+      "expiry": "2026-11-30",
+      "codes": [
+        {
+          "code": "WALLETMEGA",
+          "label": "Pay with GrabPay Wallet, up to 4 uses",
+          "label_th": "จ่ายด้วย GrabPay Wallet ใช้ได้ 4 ครั้ง"
+        },
+        {
+          "code": "MEGA",
+          "label": "Collect daily in app, up to ฿100 off (repeat)",
+          "label_th": "กดเก็บในแอปทุกวัน ลดสูงสุด ฿100 (ซ้ำ)"
+        }
+      ],
+      "why": "No bank card needed: top up GrabPay Wallet and use it on bigger group or family GrabFood orders.",
+      "why_th": "ไม่ต้องใช้บัตรธนาคาร เติมเงิน GrabPay Wallet แล้วใช้กับออเดอร์ GrabFood ใหญ่ๆ สั่งรวมกับครอบครัว",
+      "source": "https://www.grab.com/th/blog/grabpaymegagale1q2026/"
     },
     {
-     "code": "BTG60",
-     "label": "฿60 off from ฿499",
-     "label_th": "ลด ฿60 เมื่อครบ ฿499"
-    }
-   ],
-   "why": "20% off fridge and freezer staples (chicken, pork, eggs) when you hit ฿999. Listed by a code tracker, check in app.",
-   "why_th": "ได้ส่วนลดราว 20% สำหรับของสดติดตู้เย็น (ไก่ หมู ไข่) เมื่อครบ ฿999 มาจากเว็บรวมโค้ด ควรเช็กในแอป",
-   "source": "https://hiwkojadpro.com/code-lineman-today/"
-  },
-  {
-   "rank": 10,
-   "brand": "IrisGo",
-   "category": "AI Tools",
-   "title": "IrisGo AI desktop automation: free public beta",
-   "title_th": "IrisGo ผู้ช่วย AI อัตโนมัติบนเดสก์ท็อป: เบต้าฟรี",
-   "discount": "Free during public beta",
-   "discount_th": "ใช้ฟรีช่วงเบต้าสาธารณะ",
-   "minSpend": "None",
-   "minSpend_th": "ไม่มีขั้นต่ำ",
-   "expiry": null,
-   "codes": [],
-   "claim": "Download the beta for Windows 11 (64-bit) or Apple Silicon Mac from irisgo.ai/download/beta. No end date or later pricing announced.",
-   "claim_th": "ดาวน์โหลดเบต้าสำหรับ Windows 11 (64-bit) หรือ Mac ชิป Apple ที่ irisgo.ai/download/beta ยังไม่ประกาศวันสิ้นสุดหรือราคาหลังเบต้า",
-   "why": "Learns a repeated office task by watching you once, then reruns it; useful for weekly reports and admin.",
-   "why_th": "ดูเราทำงานซ้ำๆ ครั้งเดียวแล้วทำต่อเองได้ เหมาะกับรายงานรายสัปดาห์และงานเอกสาร",
-   "source": "https://www.irisgo.ai/download/beta"
-  },
-  {
-   "rank": 11,
-   "brand": "Café Amazon",
-   "category": "Restaurants",
-   "title": "Café Amazon RISE & SHINE: drink + muffin from ฿99",
-   "title_th": "คาเฟ่ อเมซอน RISE & SHINE: เครื่องดื่ม + มัฟฟิน เริ่ม ฿99",
-   "discount": "Tea set ฿99 / coffee set ฿109",
-   "discount_th": "เซตชา ฿99 / เซตกาแฟ ฿109",
-   "minSpend": "1 set",
-   "minSpend_th": "1 เซต",
-   "expiry": "2026-10-31",
-   "codes": [],
-   "claim": "Order the RISE & SHINE set at any Café Amazon branch (iced tea or coffee plus a muffin).",
-   "claim_th": "สั่งเซต RISE & SHINE ที่ Café Amazon ทุกสาขา (ชาหรือกาแฟเย็น + มัฟฟิน)",
-   "why": "Cheap breakfast combo; ends this week.",
-   "why_th": "เซตมื้อเช้าราคาประหยัด หมดเขตสัปดาห์นี้",
-   "source": "https://www.maneedee.com/promotion/cafe-amazon/"
-  },
-  {
-   "rank": 12,
-   "brand": "LINE MAN",
-   "category": "Food",
-   "title": "LINE MAN: up to ฿100 off at 'Hot Code' restaurants",
-   "title_th": "LINE MAN: ลดสูงสุด ฿100 ร้านโค้ดเด็ด",
-   "discount": "Up to ฿100 off",
-   "discount_th": "ลดสูงสุด ฿100",
-   "minSpend": "Not listed",
-   "minSpend_th": "ไม่ระบุ",
-   "expiry": null,
-   "codes": [
-    {
-     "code": "DINNER",
-     "label": "Hot Code shops, 16:00–20:00",
-     "label_th": "ร้านโค้ดเด็ด เวลา 16:00–20:00 น."
+      "rank": 4,
+      "brand": "Qoder",
+      "category": "AI Tools",
+      "title": "Qoder: DeepSeek-V4-Pro free for individual accounts",
+      "title_th": "Qoder: ใช้ DeepSeek-V4-Pro ฟรีสำหรับบัญชีส่วนตัว",
+      "discount": "Free model usage (normally consumes credits)",
+      "discount_th": "ใช้โมเดลฟรี (ปกติหักเครดิต)",
+      "minSpend": "None",
+      "minSpend_th": "ไม่มีขั้นต่ำ",
+      "expiry": "2026-10-31",
+      "codes": [],
+      "claim": "No code: open Qoder (IDE or CLI) on an individual account and pick DeepSeek-V4-Pro in the model selector.",
+      "claim_th": "ไม่ต้องใช้โค้ด: เปิด Qoder (IDE หรือ CLI) ด้วยบัญชีส่วนตัว แล้วเลือกโมเดล DeepSeek-V4-Pro",
+      "why": "Free top-tier coding model on free and paid individual plans until 31 Oct; Qwen3.8-Flash stays free after that.",
+      "why_th": "โมเดลเขียนโค้ดระดับท็อปใช้ฟรีทั้งแผนฟรีและแผนเสียเงินส่วนตัวถึง 31 ต.ค. หลังจากนั้น Qwen3.8-Flash ยังใช้ฟรีต่อ",
+      "source": "https://rss.bz/post/qoder-deepseek-v4-pro-0813-free"
     },
     {
-     "code": "AROI",
-     "label": "Hot Code shops, any time",
-     "label_th": "ร้านโค้ดเด็ด ทุกช่วงเวลา"
-    }
-   ],
-   "why": "Use these when LINEMAN quota runs out; min spend and end date unconfirmed, check in app.",
-   "why_th": "ใช้แทนเมื่อโค้ด LINEMAN หมดสิทธิ์ ยังไม่ยืนยันยอดขั้นต่ำและวันหมดเขต ควรเช็กในแอป",
-   "source": "https://hiwkojadpro.com/code-lineman-today/"
-  },
-  {
-   "rank": 13,
-   "brand": "Suno",
-   "category": "AI Tools",
-   "title": "Suno Speech: voice + music in one track (free beta)",
-   "title_th": "Suno Speech: สร้างเสียงพูดพร้อมดนตรีในแทร็กเดียว (เบต้าฟรี)",
-   "discount": "Free plan, 50 credits/day",
-   "discount_th": "แพ็กเกจฟรี 50 เครดิต/วัน",
-   "minSpend": "None",
-   "minSpend_th": "ไม่มีขั้นต่ำ",
-   "expiry": null,
-   "codes": [],
-   "claim": "Open Suno on web or mobile and try Speech (beta). Free-plan output is for personal, non-commercial use.",
-   "claim_th": "เปิด Suno บนเว็บหรือมือถือแล้วลองฟีเจอร์ Speech (เบต้า) ผลงานจากแพ็กเกจฟรีใช้ได้เฉพาะส่วนตัว ไม่ใช่เชิงพาณิชย์",
-   "why": "Quick narrated intros or voiceovers with background music, no second tool needed; exact Speech credit cost not published.",
-   "why_th": "ทำอินโทรหรือเสียงพากย์พร้อมดนตรีได้ในที่เดียว ยังไม่ประกาศว่า Speech ใช้กี่เครดิต",
-   "source": "https://www.suno.com/blog/introducing-speech-beta"
-  },
-  {
-   "rank": 14,
-   "brand": "Shopee",
-   "category": "Shopping",
-   "title": "Shopee November (11.11) with KTC: ฿150 off",
-   "title_th": "Shopee เดือน พ.ย. (11.11) กับบัตร KTC: ลด ฿150",
-   "discount": "฿150 off / Wed ฿180 off",
-   "discount_th": "ลด ฿150 / วันพุธลด ฿180",
-   "minSpend": "฿1,400 / ฿1,600",
-   "minSpend_th": "ขั้นต่ำ ฿1,400 / ฿1,600",
-   "expiry": "2026-11-30",
-   "codes": [
-    {
-     "code": "KTC11",
-     "label": "From 1 Nov, 1x per month, collect on Shopee partner page",
-     "label_th": "เริ่ม 1 พ.ย. ใช้ได้ 1 ครั้ง/เดือน เก็บโค้ดที่หน้าโค้ดพาร์ทเนอร์ Shopee"
+      "rank": 5,
+      "brand": "Thai Lion Air",
+      "category": "Travel",
+      "title": "Thai Lion Air x TAT: ฿500 off domestic flights",
+      "title_th": "ไทย ไลอ้อน แอร์ x ททท.: ลดตั๋วบินในประเทศ ฿500",
+      "discount": "฿500 off per booking per person",
+      "discount_th": "ลด ฿500 ต่อ 1 การจอง/ท่าน",
+      "minSpend": "None stated",
+      "minSpend_th": "ไม่ระบุขั้นต่ำ",
+      "expiry": "2026-12-15",
+      "codes": [
+        {
+          "code": "FLYTODOM",
+          "label": "Book on lionairthai.com only; Thai travellers",
+          "label_th": "จองผ่านเว็บไซต์สายการบินเท่านั้น สำหรับคนไทย"
+        }
+      ],
+      "why": "Repeat, book by 15 Dec (travel to 15 Jan 2027): handy for a one-way domestic leg; outbound and return must be booked separately, 16,000 seats total.",
+      "why_th": "ซ้ำ จองได้ถึง 15 ธ.ค. (เดินทางถึง 15 ม.ค. 2570) เหมาะกับตั๋วขาเดียวในประเทศ ขาไปและขากลับต้องจองแยกกัน จำกัด 16,000 ที่นั่ง",
+      "source": "https://salehere.co.th/thai-lion-air/promotions/thai-lion-air-flytodom"
     },
     {
-     "code": "KTCWED",
-     "label": "Wednesdays incl. 11.11",
-     "label_th": "ทุกวันพุธ รวมวัน 11.11"
+      "rank": 6,
+      "brand": "Muang Thai",
+      "category": "Shopping",
+      "title": "Muang Thai Smile Club: redeem points for Shopee codes",
+      "title_th": "เมืองไทย Smile Club: แลกพอยต์เป็นโค้ด Shopee",
+      "discount": "35 points = ฿100 code; 105 points = ฿300 code",
+      "discount_th": "35 พอยต์ = โค้ด ฿100, 105 พอยต์ = โค้ด ฿300",
+      "minSpend": "Per code terms",
+      "minSpend_th": "ตามเงื่อนไขโค้ด",
+      "expiry": "2026-11-27",
+      "codes": [],
+      "claim": "No public code: Smile Club members redeem in the MTL CLICK app; the Shopee code you receive is valid until 27 Nov 2026.",
+      "claim_th": "ไม่มีโค้ดสาธารณะ: สมาชิก Smile Club แลกในแอป MTL CLICK ได้รับโค้ด Shopee ใช้ได้ถึง 27 พ.ย. 2569",
+      "why": "Turns idle insurance points into Shopee money right before 11.11; max 2 redemptions per day.",
+      "why_th": "เปลี่ยนพอยต์ประกันที่ไม่ได้ใช้เป็นส่วนลด Shopee ก่อน 11.11 แลกได้สูงสุด 2 ครั้ง/วัน",
+      "source": "https://www.muangthai.co.th/th/smileclub/redeem/shopee2026"
+    },
+    {
+      "rank": 7,
+      "brand": "McDonald's",
+      "category": "Restaurants",
+      "title": "McDonald's French Fries Party Size XXXL for ฿99",
+      "title_th": "แมคโดนัลด์ เฟรนช์ฟรายส์ ปาร์ตี้ ไซซ์ XXXL เหลือ ฿99",
+      "discount": "XXXL fries box ฿99; add Cheese Dunk ฿30 (normally ฿39)",
+      "discount_th": "เฟรนช์ฟรายส์ XXXL ฿99 เพิ่มชีสดังก์ ฿30 (ปกติ ฿39)",
+      "minSpend": "1 box",
+      "minSpend_th": "1 กล่อง",
+      "expiry": "2026-10-31",
+      "codes": [],
+      "claim": "No code: order the Party Size XXXL fries at the counter, takeaway or drive-thru (not delivery).",
+      "claim_th": "ไม่ต้องใช้โค้ด: สั่งเฟรนช์ฟรายส์ ปาร์ตี้ ไซซ์ XXXL ที่เคาน์เตอร์ ซื้อกลับบ้าน หรือไดรฟ์ทรู (ไม่รวมเดลิเวอรี)",
+      "why": "Cheap sharing snack for a group; dine-in, takeaway and drive-thru only at participating branches.",
+      "why_th": "ของกินแชร์กันราคาประหยัด เฉพาะทานที่ร้าน ซื้อกลับบ้าน และไดรฟ์ทรู สาขาที่ร่วมรายการ",
+      "source": "https://salehere.co.th/mcdonalds/promotions/mcd-promotion-ff-party-size-99-thb"
+    },
+    {
+      "rank": 8,
+      "brand": "LINE MAN",
+      "category": "Supermarkets",
+      "title": "LINE MAN MART: 25% off up to ฿100",
+      "title_th": "LINE MAN MART: ลด 25% สูงสุด ฿100",
+      "discount": "25% off, max ฿100",
+      "discount_th": "ลด 25% สูงสุด ฿100",
+      "minSpend": "฿300",
+      "minSpend_th": "฿300",
+      "expiry": "2026-10-31",
+      "codes": [
+        {
+          "code": "MART100",
+          "label": "LINE MAN MART, participating stores",
+          "label_th": "LINE MAN MART ร้านที่ร่วมรายการ"
+        },
+        {
+          "code": "NEWMART",
+          "label": "First MART order: 50% off up to ฿150, min ฿100",
+          "label_th": "สั่ง MART ครั้งแรก ลด 50% สูงสุด ฿150 ขั้นต่ำ ฿100"
+        }
+      ],
+      "why": "Grocery top-up delivered without a store-specific code; listed by a code tracker, so check it applies in the app.",
+      "why_th": "เติมของใช้ในบ้านแบบส่งถึงที่ ไม่ผูกกับห้างใดห้างหนึ่ง มาจากเว็บรวมโค้ด ควรเช็กในแอปก่อนจ่าย",
+      "source": "https://hiwkojadpro.com/code-lineman-today/"
+    },
+    {
+      "rank": 9,
+      "brand": "Bao Cafe",
+      "category": "Restaurants",
+      "title": "Bao Cafe: drinks Buy 1 Get 1 on Mondays and Wednesdays",
+      "title_th": "บาว คาเฟ่: เครื่องดื่มซื้อ 1 แถม 1 ทุกวันจันทร์และพุธ",
+      "discount": "Buy 1 get 1 (2 cups ฿40, normally ฿80)",
+      "discount_th": "ซื้อ 1 แถม 1 (2 แก้ว ฿40 จากปกติ ฿80)",
+      "minSpend": "1 featured drink",
+      "minSpend_th": "เครื่องดื่มที่ร่วมรายการ 1 แก้ว",
+      "expiry": "2026-10-31",
+      "codes": [],
+      "claim": "No code: show your Sabai Card at Bao Cafe inside CJ More or CJ X on a Monday or Wednesday.",
+      "claim_th": "ไม่ต้องใช้โค้ด: แสดงสบายการ์ดที่บาว คาเฟ่ ในซีเจ มอร์ หรือซีเจ เอ็กซ์ วันจันทร์หรือพุธ",
+      "why": "About ฿20 a cup at CJ More / CJ X stores; Sabai Card members only, iced drinks from the weekly list (no hot or blended).",
+      "why_th": "เฉลี่ยแก้วละ ฿20 ที่ซีเจ มอร์ / ซีเจ เอ็กซ์ เฉพาะสมาชิกสบายการ์ด เมนูเย็นที่ร่วมรายการประจำสัปดาห์ (ไม่รวมร้อนและปั่น)",
+      "source": "https://www.maneedee.com/promotion/bao-cafe/"
+    },
+    {
+      "rank": 10,
+      "brand": "Pomerado",
+      "category": "AI Tools",
+      "title": "Pomerado: open-source agent tooling, 100 free tool calls a day",
+      "title_th": "Pomerado: เครื่องมือ AI agent โอเพนซอร์ส ใช้ฟรี 100 ครั้ง/วัน",
+      "discount": "Free tier: 100 tool calls per day",
+      "discount_th": "แผนฟรี: 100 tool calls ต่อวัน",
+      "minSpend": "None",
+      "minSpend_th": "ไม่มีขั้นต่ำ",
+      "expiry": null,
+      "codes": [],
+      "claim": "No code: sign up for the free tier from the Pomerado link in the source.",
+      "claim_th": "ไม่ต้องใช้โค้ด: สมัครแผนฟรีผ่านลิงก์ Pomerado ในแหล่งข้อมูล",
+      "why": "New this week and open source, so you can try it for agent workflows without paying.",
+      "why_th": "เปิดตัวใหม่สัปดาห์นี้และเป็นโอเพนซอร์ส ทดลองใช้กับงาน AI agent ได้โดยไม่เสียเงิน",
+      "source": "https://thetoolnerd.com/p/new-ai-tools-this-week-oct-27-2026"
+    },
+    {
+      "rank": 11,
+      "brand": "CardX",
+      "category": "Card Perks",
+      "title": "CardX x LINE MAN: ฿100 off food orders",
+      "title_th": "CardX x LINE MAN: ลดค่าอาหาร ฿100",
+      "discount": "฿100 off",
+      "discount_th": "ลด ฿100",
+      "minSpend": "฿400 (food only)",
+      "minSpend_th": "฿400 (เฉพาะค่าอาหาร)",
+      "expiry": "2026-11-30",
+      "codes": [
+        {
+          "code": "CARDXLM100",
+          "label": "CardX / SCB WEALTH by CardX credit card, 2 uses per person",
+          "label_th": "บัตรเครดิต CardX / SCB WEALTH by CardX ใช้ได้ 2 ครั้ง/ท่าน"
+        }
+      ],
+      "why": "Repeat, to 30 Nov: a flat ฿100 off a normal family-size order; 1,875 redemptions in total.",
+      "why_th": "ซ้ำ ถึง 30 พ.ย.: ลดตรง ฿100 สำหรับออเดอร์ครอบครัวปกติ จำกัด 1,875 สิทธิ์",
+      "source": "https://www.cardx.co.th/th-TH/promotions/lineman-sale-oct26-onc05"
+    },
+    {
+      "rank": 12,
+      "brand": "LINE MAN",
+      "category": "Rides",
+      "title": "LINE MAN Ride: 20% off up to ฿100",
+      "title_th": "LINE MAN Ride: ลด 20% สูงสุด ฿100",
+      "discount": "20% off, max ฿100",
+      "discount_th": "ลด 20% สูงสุด ฿100",
+      "minSpend": "None",
+      "minSpend_th": "ไม่มีขั้นต่ำ",
+      "expiry": "2026-10-31",
+      "codes": [
+        {
+          "code": "ALLRIDE",
+          "label": "Ride, no minimum",
+          "label_th": "เรียกรถ ไม่มีขั้นต่ำ"
+        },
+        {
+          "code": "GINJAY",
+          "label": "Same deal (Eco), try if ALLRIDE quota is gone",
+          "label_th": "ส่วนลดเท่ากัน (Eco) ลองถ้า ALLRIDE หมด"
+        },
+        {
+          "code": "EASYRIDE",
+          "label": "15% off up to ฿100",
+          "label_th": "ลด 15% สูงสุด ฿100"
+        }
+      ],
+      "why": "New ride codes for longer trips before month-end; listed by a code tracker, so check the discount shows before booking.",
+      "why_th": "โค้ดเรียกรถใหม่ เหมาะทริปไกลก่อนสิ้นเดือน มาจากเว็บรวมโค้ด ควรเช็กส่วนลดในแอปก่อนเรียก",
+      "source": "https://hiwkojadpro.com/code-lineman-today/"
+    },
+    {
+      "rank": 13,
+      "brand": "Big C",
+      "category": "Supermarkets",
+      "title": "Big C via LINE MAN MART: up to ฿60 off",
+      "title_th": "Big C ผ่าน LINE MAN MART: ลดสูงสุด ฿60",
+      "discount": "฿60 off (Big C) / ฿30 off (Big C Mini)",
+      "discount_th": "ลด ฿60 (Big C) / ลด ฿30 (Big C Mini)",
+      "minSpend": "฿700 / ฿400",
+      "minSpend_th": "฿700 / ฿400",
+      "expiry": "2026-10-31",
+      "codes": [
+        {
+          "code": "BIGC60",
+          "label": "Big C on LINE MAN MART, min ฿700",
+          "label_th": "Big C บน LINE MAN MART ขั้นต่ำ ฿700"
+        },
+        {
+          "code": "BIGCMINI",
+          "label": "Big C Mini, ฿30 off at ฿400",
+          "label_th": "Big C Mini ลด ฿30 ขั้นต่ำ ฿400"
+        }
+      ],
+      "why": "Month-end grocery run delivered; listed by a code tracker, so confirm in the app.",
+      "why_th": "ซื้อของเข้าบ้านช่วงสิ้นเดือนแบบส่งถึงบ้าน มาจากเว็บรวมโค้ด ควรเช็กในแอป",
+      "source": "https://hiwkojadpro.com/code-lineman-today/"
+    },
+    {
+      "rank": 14,
+      "brand": "LINE MAN",
+      "category": "Food",
+      "title": "LINE MAN: 30% off up to ฿100 (unconfirmed)",
+      "title_th": "LINE MAN: ลด 30% สูงสุด ฿100 (ยังไม่ยืนยัน)",
+      "discount": "30% off, max ฿100",
+      "discount_th": "ลด 30% สูงสุด ฿100",
+      "minSpend": "฿200",
+      "minSpend_th": "฿200",
+      "expiry": null,
+      "codes": [
+        {
+          "code": "LMTOOKSUD",
+          "label": "Unconfirmed: seen in a social post, not on the official page",
+          "label_th": "ยังไม่ยืนยัน: พบในโพสต์โซเชียล ไม่อยู่ในหน้าทางการ"
+        }
+      ],
+      "why": "Worth a try at checkout if LINEMAN or LMGROUP don't fit; expiry not stated.",
+      "why_th": "ลองใส่ตอนจ่ายถ้าโค้ด LINEMAN หรือ LMGROUP ใช้ไม่ได้ ไม่ระบุวันหมดอายุ",
+      "source": "https://x.com/good4uchn/status/2114620903846002809"
+    },
+    {
+      "rank": 15,
+      "brand": "Burger King",
+      "category": "Restaurants",
+      "title": "Burger King on LINE MAN: selected menu ฿49 (unconfirmed dates)",
+      "title_th": "เบอร์เกอร์คิง บน LINE MAN: เมนูร่วมรายการ ฿49 (วันที่ยังไม่ยืนยัน)",
+      "discount": "Items at ฿49",
+      "discount_th": "เมนูละ ฿49",
+      "minSpend": "None stated",
+      "minSpend_th": "ไม่ระบุขั้นต่ำ",
+      "expiry": null,
+      "codes": [],
+      "claim": "No code: open Burger King in LINE MAN and pick the ฿49 items; check the price shows before ordering.",
+      "claim_th": "ไม่ต้องใช้โค้ด: เปิดร้านเบอร์เกอร์คิงใน LINE MAN เลือกเมนู ฿49 เช็กราคาก่อนสั่ง",
+      "why": "Posted 26 Oct as a 5-day LINE MAN deal (likely ends around 30 Oct, unconfirmed); cheap fast-food lunch.",
+      "why_th": "โพสต์เมื่อ 26 ต.ค. ว่าเป็นดีล 5 วันบน LINE MAN (น่าจะหมดราว 30 ต.ค. ยังไม่ยืนยัน) มื้อกลางวันราคาประหยัด",
+      "source": "https://x.com/good4uchn/status/2114618056748286025"
+    },
+    {
+      "rank": 16,
+      "brand": "Lexmount",
+      "category": "AI Tools",
+      "title": "Lexmount: free cloud browser hours for AI agents",
+      "title_th": "Lexmount: เบราว์เซอร์คลาวด์สำหรับ AI agent ใช้ฟรี",
+      "discount": "Free: 10 browser hours + 1,000 Web Fetch per month",
+      "discount_th": "ฟรี: 10 ชั่วโมงเบราว์เซอร์ + 1,000 Web Fetch ต่อเดือน",
+      "minSpend": "None",
+      "minSpend_th": "ไม่มีขั้นต่ำ",
+      "expiry": null,
+      "codes": [],
+      "claim": "No code: sign up for the free plan via the Lexmount link in the source.",
+      "claim_th": "ไม่ต้องใช้โค้ด: สมัครแผนฟรีผ่านลิงก์ Lexmount ในแหล่งข้อมูล",
+      "why": "New this week; enough free monthly quota to test web-browsing agents.",
+      "why_th": "เปิดตัวใหม่สัปดาห์นี้ โควตาฟรีรายเดือนพอสำหรับทดลอง agent ที่ท่องเว็บ",
+      "source": "https://thetoolnerd.com/p/new-ai-tools-this-week-oct-27-2026"
+    },
+    {
+      "rank": 17,
+      "brand": "TikTok Shop",
+      "category": "Shopping",
+      "title": "TikTok Shop 11.11 x KTC VISA: ฿80 off",
+      "title_th": "TikTok Shop 11.11 x KTC VISA: ลด ฿80",
+      "discount": "฿80 off",
+      "discount_th": "ลด ฿80",
+      "minSpend": "฿800",
+      "minSpend_th": "฿800",
+      "expiry": "2026-11-11",
+      "codes": [],
+      "claim": "No code: on 11.11 pay with a KTC VISA card at TikTok Shop checkout; discount applies per the bank's terms.",
+      "claim_th": "ไม่ต้องใช้โค้ด: วันที่ 11.11 ชำระด้วยบัตร KTC VISA ที่ TikTok Shop ส่วนลดตามเงื่อนไขธนาคาร",
+      "why": "Early 11.11 bank deal; official Shopee/TikTok 11.11 codes aren't announced yet.",
+      "why_th": "ดีลบัตรสำหรับ 11.11 ล่วงหน้า โค้ดทางการของ Shopee/TikTok 11.11 ยังไม่ประกาศ",
+      "source": "https://www.thaidata.co.th/deals/ktc-shopee-code-november-2569-tiktok-shop-11-11/"
     }
-   ],
-   "why": "Needs a KTC card. Shopee's own 11.11 codes are not announced yet; these are the first confirmed 11.11-period codes.",
-   "why_th": "ต้องใช้บัตร KTC โค้ด 11.11 ของ Shopee เองยังไม่ประกาศ ชุดนี้เป็นโค้ดช่วง 11.11 ชุดแรกที่ยืนยันแล้ว",
-   "source": "https://thaidata.co.th/deals/ktc-shopee-code-november-2569-tiktok-shop-11-11/"
-  },
-  {
-   "rank": 15,
-   "brand": "Lazada",
-   "category": "Shopping",
-   "title": "Lazada Payday with KTC: 15% off",
-   "title_th": "Lazada Payday กับบัตรเครดิต KTC: ลด 15%",
-   "discount": "15% off, max ฿450",
-   "discount_th": "ลด 15% สูงสุด ฿450",
-   "minSpend": "฿1,499",
-   "minSpend_th": "ขั้นต่ำ ฿1,499",
-   "expiry": "2026-10-31",
-   "codes": [],
-   "claim": "Collect the KTC voucher in the Lazada app (25th to month end) and pay with a KTC or KTC PROUD card; 1 use per account per month.",
-   "claim_th": "เก็บคูปอง KTC ในแอป Lazada (วันที่ 25–สิ้นเดือน) แล้วจ่ายด้วยบัตร KTC หรือ KTC PROUD ใช้ได้ 1 ครั้ง/บัญชี/เดือน",
-   "why": "Needs a KTC card; month-end window for planned buys.",
-   "why_th": "ต้องใช้บัตร KTC เหมาะซื้อของที่วางแผนไว้ช่วงสิ้นเดือน",
-   "source": "https://www.ktc.co.th/promotion/online-shopping-services/online-shopping/lazada-codes"
-  },
-  {
-   "rank": 16,
-   "brand": "The Pizza Company",
-   "category": "Restaurants",
-   "title": "The Pizza Company: any pizza Buy 1 Get 1 (delivery)",
-   "title_th": "เดอะ พิซซ่า คอมปะนี: พิซซ่า 1 แถม 1 ทุกหน้า ทุกขอบ (เดลิเวอรี)",
-   "discount": "Buy 1 get 1 free",
-   "discount_th": "ซื้อ 1 แถม 1",
-   "minSpend": "1 pizza",
-   "minSpend_th": "พิซซ่า 1 ถาด",
-   "expiry": "2026-11-08",
-   "codes": [],
-   "claim": "Order delivery via 1112, 1112.com or the 1112 app; price and exact terms per the brand page.",
-   "claim_th": "สั่งเดลิเวอรีผ่าน 1112, 1112.com หรือแอป 1112 ราคาและเงื่อนไขตามหน้าแบรนด์",
-   "why": "Group-meal option that lasts past month end; exact price not listed by the source.",
-   "why_th": "เหมาะสั่งกินหลายคน ใช้ได้ถึงต้นเดือนหน้า แหล่งที่มาไม่ได้ระบุราคา",
-   "source": "https://www.maneedee.com/promotion/the-pizza-company/"
-  }
- ]
+  ]
 }
